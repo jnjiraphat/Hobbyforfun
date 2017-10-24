@@ -3,7 +3,9 @@ import Menubar from './Component/Menubar'
 
 const Component =()=> (
   <div>
+    
     <Menubar />
+    
   </div>
 )
 

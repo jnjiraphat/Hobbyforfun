@@ -1,8 +1,19 @@
 /* Menubar */
 
-    .padding {
-        padding-left: 2rem !important;
-        padding-right: 2rem !important;
-    }
+.padding {
+    padding-left: 2rem !important;
+    padding-right: 2rem !important;
+}
+.nav-color {
+    background-color: #69C5B8 !important;
+}
+.test-box {
+    height: 2000px;
+    background-color: red;
+}
+.font-menu {
+    color: white !important;
+    font-weight: bold;
+}
     
     
