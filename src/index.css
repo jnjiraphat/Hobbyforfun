@@ -101,6 +101,9 @@
     margin-right: .7cm;
     margin-top: .5cm;
   }
+  .circle:hover {
+    background-color: #69C5B8;
+  }
   @media (max-width:414px) {
     .circle {height:50px; border-radius: 30px;}
     .Ctext {padding-top: 10px !important;}
@@ -113,14 +116,16 @@
     font-weight: bold;
     text-shadow: 0px 1px 10px #B2D8BF;
   }
-  /*Register button */
 
+  /*Register button */
+  
+  /*button*/
   .picsuccess{
     width: 100px;
     height: 100px;
     margin: 10px;
   }
-
+  
   .btn-custom2 {
     color: rgb(116, 116, 116);
     font-size: 13px;
@@ -136,4 +141,28 @@
   .btn-custom2:hover{
     border-color: rgb(116, 116, 116)
   }
-
+  /*button*/
+  
+  /*topic*/
+  #w3c-gradient {
+    background: linear-gradient(to right top
+    , #FAB1BC 0%, #FAB1BC 50%,
+    transparent 50%, rgba(0,0,0,0) 71%,
+   rgba(255,55,8,0) 100%);
+  }  
+  .topicbox {
+    width: 200px;
+    height: 70px;
+    background-color: #F3A3B0 !important;
+    box-shadow: 0px -1px 7px #7b7b7b;
+  }
+  .texttopic {
+    padding-top: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .topicshadow {
+    text-shadow: 0px 1px 10px #7b7b7b;
+  }
+  /*topic*/
