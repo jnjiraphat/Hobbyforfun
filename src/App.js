@@ -1,15 +1,16 @@
 import React from 'react'
 import Menubar from './Component/Menubar'
 import PopupForm from './Component/PopupForm'
+import Register from './Component/Register'
 
 const Component =()=> (
   <div>
     
-    <Menubar />
-    
-    <button type="button" class="btn btn-info btn-lg" data-toggle="modal" data-target="#myModal">Register</button>
+    <Register />
     <PopupForm />
-    
+    <div className="test-box"></div>
+    <Menubar />
+    <div className="test-box"></div>
   </div>
 )
 
