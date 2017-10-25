@@ -15,5 +15,70 @@
     color: white !important;
     font-weight: bold;
 }
-    
+ 
+.head{
+    text-decoration: underline;
+  }
+.colorform{
+    color: rgb(116, 116, 116) !important;
+}
+  #form1 {
+    border-radius: 50px; 
+  }
+  #form2{
+  
+    border-radius: 50px;
+  }
+  #form3{
+  
+    border-radius: 50px;
+  }
+  #form4{
+  
+    border-radius: 50px;
+  }
+  #form5{
+  
+    border-radius: 50px;
+  }
+  #form6{
+  
+    border-radius: 50px;
+  }
+  #form7{
+    width: 80px;
+    border-radius: 50px;
+  }
+  #form8{
+    width: 80px;
+    border-radius: 50px;
+  }
+  #form9{
+    width: 80px;
+    border-radius: 50px;
+  }
+  #fexampleFormControlTextarea1{
+    border-radius: 20px;
+  }
+  
+  .button{
+    text-align: center;
+    color: rgb(116, 116, 116) !important;
+  }
+
+  
+  .btn-custom  {
+    font-style: bold;
+    align-content: center;
+    width: 130px;
+    height: 50px;
+    border-radius: 50px;
+    transition: .5s;
+    background-color: white;
+    border: 5px solid #aaaaaa;
+  }
+  
+  .btn-custom:hover{
+    border-color: rgb(116, 116, 116)
+  }
     
