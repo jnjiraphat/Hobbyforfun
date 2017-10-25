@@ -77,8 +77,40 @@
     background-color: white;
     border: 5px solid #aaaaaa;
   }
-  
   .btn-custom:hover{
     border-color: rgb(116, 116, 116)
   }
+  .header{
+    height: 100%;
+  }
+  .bgh{
+    background-color: #EECC6B;
+  }
+  .bgtim{
+    background-color:  #EECC6B;
+    margin-top: 50px;
+    margin-bottom:30px;
+  }
+  .bgtim1{
+    background-color:  #EECC6B;
+    margin-top: 30px;
+    margin-bottom:100px;
+  }
+  .bgt{
+    background-color: red;
+  }
+  h{
+    font-size: 60px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 90px;
+    margin-bottom: 90px;
+  }
+  .bgnav{
+    background-color:  #69C5B8;
     
+  }
+  p1{
+    color: white;
+    margin-left: 400px;
+  }
