@@ -94,8 +94,58 @@
     margin-top: -100px;
     box-shadow: 1px 3px 5px rgb(248, 243, 243);
     transition:all 250ms ease-in-out;
+  }
 
-
+  /*Register button */
+  .circle {  
+    width: 130px;
+    height: 130px;
+    border: solid 1px #CDFEDE;
+    border-radius: 50%;
+    background-color: #CDFEDE;
+    /* box-shadow: 0px 1px px rgb(176, 255, 202); */
+  }
+  .Cposition {
+    position: fixed;
+    right: 0;
+    z-index: 1500;
+    margin-right: .7cm;
+    margin-top: .5cm;
+  }
+  .circle:hover {
+    background-color: #69C5B8;
+  }
+  @media (max-width:414px) {
+    .circle {height:50px; border-radius: 30px;}
+    .Ctext {padding-top: 10px !important;}
+  }
+  .Ctext {
+    padding-top: 53px;
+  }
+  .font-regis {
+    color: #ffffff;
+    font-weight: bold;
+    text-shadow: 0px 1px 10px #B2D8BF;
+  }
+  /*Register button */
+  
+  /*button*/
+  .picsuccess{
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+  }
+  
+  .btn-custom2 {
+    color: rgb(116, 116, 116);
+    font-size: 13px;
+    font-style: bold;
+    width: 70px;
+    height: 35px;
+    border-radius: 50px;
+    transition: .5s;
+    background-color: white;
+    border: 4px solid #aaaaaa;
   }
   .bt:hover{
     background-color: #69C5B8;
@@ -134,3 +184,29 @@
     color: white;
     font-size: 25px;
   }
+  /*button*/
+  
+  /*topic*/
+  #w3c-gradient {
+    background: linear-gradient(to right top
+    , #FAB1BC 0%, #FAB1BC 50%,
+    transparent 50%, rgba(0,0,0,0) 71%,
+   rgba(255,55,8,0) 100%);
+  }  
+  .topicbox {
+    width: 200px;
+    height: 70px;
+    background-color: #F3A3B0 !important;
+    box-shadow: 0px -1px 7px #7b7b7b;
+  }
+  .texttopic {
+    padding-top: 10px;
+    color: #ffffff;
+    font-weight: bold;
+    font-size: 30px;
+  }
+  .topicshadow {
+    text-shadow: 0px 1px 10px #7b7b7b;
+  }
+  /*topic*/
+

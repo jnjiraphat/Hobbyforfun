@@ -2,13 +2,11 @@ import React from 'react'
 import PopupForm from './PopupForm'
 
 const Register =()=> (
-    <div className="home-wrap clearfix">
-        < div className="text-center col-lg-12 bghead ">
-    <div className="row">
-    <a1 class="bt" data-toggle="modal" data-target="#myModal"><br/>Register</a1>
+    <div className="container col-12">
+    <div className="circle Cposition text-center " 
+        data-toggle="modal" data-target="#myModal">
+        <p className="Ctext font-regis">Register NOW!</p>
     </div>
     </div>
-    </div>
-
 )
 export default Register
