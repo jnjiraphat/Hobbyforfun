@@ -1,5 +1,5 @@
 import React from 'react'
-
+import PopupSuccess from './PopupSuccess'
 const PopupForm=()=>(
 
 
@@ -17,7 +17,7 @@ const PopupForm=()=>(
         <div className="container">
             <div className="row">
                 <div className="col-12 col-sm-12 col-lg-12">
-                    <div className="head"><h2>Register</h2></div>
+                    <div className="head"><h3>Register</h3></div>
                 </div>
             </div>
         </div>
@@ -159,7 +159,8 @@ const PopupForm=()=>(
         </div>
         <br/>
         <div className="button">
-                <button type="button" class="btn-custom" href="#">SUBMIT</button>
+                <button type="button" class="btn-custom" data-toggle="modal" data-target="#myModal2">SUBMIT</button>
+                <PopupSuccess />
         </div>
         <br/><br/>
         </div>
