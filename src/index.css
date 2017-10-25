@@ -81,6 +81,8 @@
   .btn-custom:hover{
     border-color: rgb(116, 116, 116)
   }
+
+  /*Header*/
   .bt{
     background-color: burlywood;
     border:solid 1px burlywood;
