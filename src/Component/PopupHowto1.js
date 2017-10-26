@@ -7,7 +7,7 @@ const PopupHowto1 = () =>(
             <div class="modal-dialog modal-md">
                 <div class="modal-content">
                     <div class="modal-body">
-                        <img src={Close} alt="" className="close" data-dismiss="modal" />
+                        <img src={Close} alt="" className="closeHowto" data-dismiss="modal" />
                         <br />
                         <p>TEXT</p>
                         <br />
