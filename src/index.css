@@ -208,3 +208,20 @@
   }
   /*topic*/
 
+  /*close icon popup*/
+  .close {
+    width: 40px;
+    height: 40px;
+  }
+  /*close icon popup*/
+
+  /*button howto*/
+  .btn-howto {
+    color:  white; 
+    font-size: 16px;
+    background-color: #69C5B8; 
+    border-radius: 50px;
+    width: 120px;
+    height: 60px;
+  }
+  /*button howto*/

@@ -5,6 +5,9 @@ import Header from './Component/Header'
 import Logo from './img/pic1.png'
 import Register from './Component/Register'
 import Article from './Component/Article'
+import PopupHowTo1 from './Component/PopupHowto1'
+import PopupHowTo2 from './Component/PopupHowto2'
+import PopupHowTo3 from './Component/PopupHowto3'
 
 import TopicCard from './Component/TopicCard'
 
@@ -28,6 +31,19 @@ const Component =()=> (
       <TopicCard message="ABOUT" />
     </div> */}
         </div>
+
+        {/*<div>
+          <!-- Knitting -->
+          <button type="button" class="btn-howto" data-toggle="modal" data-target="#myHowto1">วิธีทำ</button>
+          <PopupHowTo1 />
+          <!-- Paper flower -->
+          <button type="button" class="btn-howto" data-toggle="modal" data-target="#myHowto2">วิธีทำ</button>
+          <PopupHowTo2 />
+          <!-- Model with glue -->
+          <button type="button" class="btn-howto" data-toggle="modal" data-target="#myHowto3">วิธีทำ</button>
+          <PopupHowTo3 />
+        </div>*/}
+
       </div>
     </div>
 
