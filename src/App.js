@@ -24,9 +24,9 @@ const Component =()=> (
           <div className="text-center col-lg-12 bgnav ">
             <Article/>
           </div>
-          {/* <div className="d-flex justify-content-center">
+           <div className="d-flex justify-content-center">
       <TopicCard message="ABOUT" />
-    </div> */}
+    </div> 
         </div>
       </div>
     </div>
