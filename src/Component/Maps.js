@@ -1,5 +1,4 @@
 import React from 'react'
-import Marker from '../img/mapmarker.png'
 
 const Maps = () =>(
     <div>
