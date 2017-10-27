@@ -8,8 +8,9 @@ import Article from './Component/Article'
 import PopupHowTo1 from './Component/PopupHowto1'
 import PopupHowTo2 from './Component/PopupHowto2'
 import PopupHowTo3 from './Component/PopupHowto3'
-
 import TopicCard from './Component/TopicCard'
+import Maps from './Component/Maps'
+import Address from './Component/Address'
 
 const Component =()=> (
   <div className="home-wrap clearfix">
@@ -43,7 +44,14 @@ const Component =()=> (
           <button type="button" class="btn-howto" data-toggle="modal" data-target="#myHowto3">วิธีทำ</button>
           <PopupHowTo3 />
         </div>*/}
-
+        
+        {/*<div>
+        <!-- MAP (KMUTT) -->
+          <Maps /> 
+        <!-- Address (KMUTT) -->
+          <Address />
+        </div>*/}
+        
       </div>
     </div>
 

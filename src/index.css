@@ -1,227 +1,235 @@
 /* Menubar */
-
 .padding {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
 .nav-color {
-    background-color: #69C5B8 !important;
+  background-color: #69C5B8 !important;
 }
 .test-box {
-    height: 2000px;
-    background-color: #F3A3B0;
+  height: 2000px;
+  background-color: #F3A3B0;
 }
 .font-menu {
-    color: white !important;
-    font-weight: bold;
+  color: white !important;
+  font-weight: bold;
 }
-
 /*Menubar*/
 
 /*pop-up form*/
-
-.head{
-    text-decoration: underline;
-  }
-.colorform{
-    color: rgb(116, 116, 116) !important;
+.head {
+  text-decoration: underline;
 }
-  #form1 {
-    border-radius: 50px; 
-  }
-  #form2{
-  
-    border-radius: 50px;
-  }
-  #form3{
-  
-    border-radius: 50px;
-  }
-  #form4{
-  
-    border-radius: 50px;
-  }
-  #form5{
-  
-    border-radius: 50px;
-  }
-  #form6{
-  
-    border-radius: 50px;
-  }
-  #form7{
-    width: 80px;
-    border-radius: 50px;
-  }
-  #form8{
-    width: 80px;
-    border-radius: 50px;
-  }
-  #form9{
-    width: 80px;
-    border-radius: 50px;
-  }
-  #fexampleFormControlTextarea1{
-    border-radius: 20px;
-  }
-  
-  .button{
-    text-align: center;
-  }
+.colorform {
+  color: rgb(116, 116, 116) !important;
+}
+.form-regis {
+  text-align: left;
+}
+#form1 {
+  border-radius: 50px;
+}
+#form2 {
+  border-radius: 50px;
+}
+#form3 {
+  border-radius: 50px;
+}
+#form4 {
+  border-radius: 50px;
+}
+#form5 {
+  border-radius: 50px;
+}
+#form6 {
+  border-radius: 50px;
+}
+#form7 {
+  width: 80px;
+  border-radius: 50px;
+}
+#form8 {
+  width: 80px;
+  border-radius: 50px;
+}
+#form9 {
+  width: 80px;
+  border-radius: 50px;
+}
+#formTextarea {
+  border-radius: 20px;
+}
 
-  .btn-custom  {
-    color: rgb(116, 116, 116);
-    width: 110px;
-    height: 40px;
-    border-radius: 50px;
-    transition: .5s;
-    background-color: white;
-    border: 4px solid #aaaaaa;
-  }
-  .btn-custom:hover{
-    border-color: rgb(116, 116, 116)
-  }
-  .bt{
-    background-color: burlywood;
-    border:solid 1px burlywood;
-    width:130px;
-    height:130px;
-    border-radius:50%;
-    background:burlywood;
-    margin-left: 1110px;
-    margin-top: -100px;
-    box-shadow: 1px 3px 5px rgb(248, 243, 243);
-    transition:all 250ms ease-in-out;
-  }
+.button {
+  text-align: center;
+}
 
-  /*Register button */
-  .circle {  
-    width: 130px;
-    height: 130px;
-    border: solid 1px #CDFEDE;
-    border-radius: 50%;
-    background-color: #CDFEDE;
-    /* box-shadow: 0px 1px px rgb(176, 255, 202); */
-  }
-  .Cposition {
-    position: fixed;
-    right: 0;
-    z-index: 1500;
-    margin-right: .7cm;
-    margin-top: .5cm;
-  }
-  .circle:hover {
-    background-color: #69C5B8;
-  }
-  @media (max-width:414px) {
-    .circle {height:50px; border-radius: 30px;}
-    .Ctext {padding-top: 10px !important;}
+.btn-custom {
+  color: rgb(116, 116, 116);
+  width: 110px;
+  height: 40px;
+  border-radius: 50px;
+  transition: .5s;
+  background-color: white;
+  border: 4px solid #aaaaaa;
+}
+
+.btn-custom:hover {
+  border-color: rgb(116, 116, 116)
+}
+/*pop-up form*/
+
+.bt {
+  background-color: burlywood;
+  border: solid 1px burlywood;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: burlywood;
+  margin-left: 1110px;
+  margin-top: -100px;
+  box-shadow: 1px 3px 5px rgb(248, 243, 243);
+  transition: all 250ms ease-in-out;
+}
+
+/*Register button */
+.circle {
+  width: 130px;
+  height: 130px;
+  border: solid 1px #CDFEDE;
+  border-radius: 50%;
+  background-color: #CDFEDE;
+  /* box-shadow: 0px 1px px rgb(176, 255, 202); */
+}
+.Cposition {
+  position: fixed;
+  right: 0;
+  z-index: 1500;
+  margin-right: .7cm;
+  margin-top: .5cm;
+}
+.circle:hover {
+  background-color: #69C5B8;
+}
+@media (max-width:414px) {
+  .circle {
+    height: 50px;
+    border-radius: 30px;
   }
   .Ctext {
-    padding-top: 53px;
+    padding-top: 10px !important;
   }
-  .font-regis {
-    color: #ffffff;
-    font-weight: bold;
-    text-shadow: 0px 1px 10px #B2D8BF;
-  }
-  /*Register button */
-  
-  /*button*/
-  .picsuccess{
-    width: 100px;
-    height: 100px;
-    margin: 10px;
-  }
-  
-  .btn-custom2 {
-    color: rgb(116, 116, 116);
-    font-size: 13px;
-    font-style: bold;
-    width: 70px;
-    height: 35px;
-    border-radius: 50px;
-    transition: .5s;
-    background-color: white;
-    border: 4px solid #aaaaaa;
-  }
-  .bt:hover{
-    background-color: #69C5B8;
-    box-shadow: 5px 5px 5px rgb(221, 217, 217);
-    cursor:pointer;
-    transition: scale(1.1);
-  }
-  .header{
-    height: 100%;
-  }
-  .bgh{
-    background-color: #EECC6B;
-  }
-  .bgtim{
-    background-color:  #EECC6B;
-    margin-top: 50px;
-    margin-bottom:30px;
-  }
-  .bgtim1{
-    background-color:  #EECC6B;
-    margin-top: 30px;
-    margin-bottom:100px;
-  }
-  .bgt{
-    background-color: red;
-  }
-  .bgnav{
-    background-color:  #69C5B8;
-    
-  }
-  p1{
-    color: white;
-    margin-left: 400px;
-  }
-  a1{
-    color: white;
-    font-size: 25px;
-  }
-  /*button*/
-  
-  /*topic*/
-  #w3c-gradient {
-    background: linear-gradient(to right top
-    , #FAB1BC 0%, #FAB1BC 50%,
-    transparent 50%, rgba(0,0,0,0) 71%,
-   rgba(255,55,8,0) 100%);
-  }  
-  .topicbox {
-    width: 200px;
-    height: 70px;
-    background-color: #F3A3B0 !important;
-    box-shadow: 0px -1px 7px #7b7b7b;
-  }
-  .texttopic {
-    padding-top: 10px;
-    color: #ffffff;
-    font-weight: bold;
-    font-size: 30px;
-  }
-  .topicshadow {
-    text-shadow: 0px 1px 10px #7b7b7b;
-  }
-  /*topic*/
+}
+.Ctext {
+  padding-top: 53px;
+}
+.font-regis {
+  color: #ffffff;
+  font-weight: bold;
+  text-shadow: 0px 1px 10px #B2D8BF;
+}
+/*Register button */
 
-  /*close icon popup*/
-  .closeHowto {
-    width: 40px;
-    height: 40px;
-  }
-  /*close icon popup*/
+/*button*/
+.picsuccess {
+  width: 100px;
+  height: 100px;
+  margin: 10px;
+}
 
-  /*button howto*/
-  .btn-howto {
-    color:  white; 
-    font-size: 16px;
-    background-color: #69C5B8; 
-    border-radius: 50px;
-    width: 120px;
-    height: 60px;
-  }
-  /*button howto*/
+.btn-custom2 {
+  color: rgb(116, 116, 116);
+  font-size: 13px;
+  font-style: bold;
+  width: 70px;
+  height: 35px;
+  border-radius: 50px;
+  transition: .5s;
+  background-color: white;
+  border: 4px solid #aaaaaa;
+}
+/*button*/
+
+.bt:hover {
+  background-color: #69C5B8;
+  box-shadow: 5px 5px 5px rgb(221, 217, 217);
+  cursor: pointer;
+  transition: scale(1.1);
+}
+
+.header {
+  height: 100%;
+}
+
+.bgh {
+  background-color: #EECC6B;
+}
+
+.bgtim {
+  background-color: #EECC6B;
+  margin-top: 50px;
+  margin-bottom: 30px;
+}
+
+.bgtim1 {
+  background-color: #EECC6B;
+  margin-top: 30px;
+  margin-bottom: 100px;
+}
+
+.bgt {
+  background-color: red;
+}
+
+.bgnav {
+  background-color: #69C5B8;
+}
+
+p1 {
+  color: white;
+  margin-left: 400px;
+}
+
+a1 {
+  color: white;
+  font-size: 25px;
+}
+
+/*topic*/
+#w3c-gradient {
+  background: linear-gradient(to right top, #FAB1BC 0%, #FAB1BC 50%, transparent 50%, rgba(0, 0, 0, 0) 71%, rgba(255, 55, 8, 0) 100%);
+}
+.topicbox {
+  width: 200px;
+  height: 70px;
+  background-color: #F3A3B0 !important;
+  box-shadow: 0px -1px 7px #7b7b7b;
+}
+.texttopic {
+  padding-top: 10px;
+  color: #ffffff;
+  font-weight: bold;
+  font-size: 30px;
+}
+.topicshadow {
+  text-shadow: 0px 1px 10px #7b7b7b;
+}
+/*topic*/
+
+/*close icon popup*/
+.closeHowto {
+  width: 40px;
+  height: 40px;
+}
+/*close icon popup*/
+
+/*button howto*/
+.btn-howto {
+  color: white;
+  font-size: 16px;
+  background-color: #69C5B8;
+  border-radius: 50px;
+  width: 120px;
+  height: 60px;
+}
+/*button howto*/
