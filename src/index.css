@@ -1,11 +1,13 @@
-/* Menubar */
-
+.font-fam {
+  font-family: 'Itim', cursive;
+}
+  /* Menubar */
 .padding {
     padding-left: 2rem !important;
     padding-right: 2rem !important;
 }
 .nav-color {
-    background-color: #69C5B8 !important;
+  background-color: #69C5B8 !important;
 }
 .test-box {
     height: 2000px;
@@ -15,7 +17,10 @@
     color: white !important;
     font-weight: bold;
 }
-
+.widthnav {
+  min-width: 100%;
+  width: 100%;
+}
 /*Menubar*/
 
 /*pop-up form*/
@@ -98,9 +103,9 @@
   .circle {  
     width: 130px;
     height: 130px;
-    border: solid 1px #CDFEDE;
+    border: solid 1px rgb(255, 255, 255);
     border-radius: 50%;
-    background-color: #CDFEDE;
+    background-color: #EECC6B;
     /* box-shadow: 0px 1px px rgb(176, 255, 202); */
   }
   .Cposition {
@@ -112,13 +117,18 @@
   }
   .circle:hover {
     background-color: #69C5B8;
+    border: dashed 2px #ffffff;
   }
   @media (max-width:414px) {
-    .circle {height:50px; border-radius: 30px;}
-    .Ctext {padding-top: 10px !important;}
+    /* .circle {height:50px; border-radius: 30px;} */
+    .font-regis1 {font-size: 20px;}
+    /* .Ctext {padding-top: 10px !important;} */
   }
   .Ctext {
-    padding-top: 53px;
+    padding-top: 35px;
+  }
+  .font-regis1 {
+    font-size: 25px;
   }
   .font-regis {
     color: #ffffff;
@@ -195,7 +205,9 @@
     width: 200px;
     height: 70px;
     background-color: #F3A3B0 !important;
-    box-shadow: 0px -1px 7px #7b7b7b;
+    border: hidden;
+    border-radius: 12px;
+    /* box-shadow: 0px -1px 7px #7b7b7b; */
   }
   .texttopic {
     padding-top: 10px;
@@ -206,5 +218,42 @@
   .topicshadow {
     text-shadow: 0px 1px 10px #7b7b7b;
   }
+  .mg-tpabout {
+    margin-top: 100px;
+  }
+  .center {
+    align-content: center;
+  }
   /*topic*/
 
+  /*content card*/
+  .conbox1 {
+    width: 700px;
+    height: 150px;
+    background-color: #FAB1BC;
+    border: 1px solid #ffffff;
+    box-shadow: 0px 1px 10px #777777;
+  }
+  .conbox {
+    min-height: 150px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #ffffff18;
+  }
+  .content {
+    color: rgb(121, 34, 52);
+    font-size: 20px;
+  }
+  .mr-pad {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  /*content card*/
+  
+  /*more*/
+  .flex-container {
+    flex-direction: column;
+  }
+  /*more*/
