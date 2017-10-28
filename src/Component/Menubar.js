@@ -1,8 +1,8 @@
 import React from 'react'
-
+import Register from './Register'
 const Menubar = () => (
-    <div className="sticky-top">
-        <nav className="col-12 navbar navbar-expand-lg navbar-light nav-color">
+    <div className="sticky-top widthnav">
+        <nav className="col-lg-12 navbar navbar-expand-lg navbar-light nav-color">
             {/* <a className="navbar-brand" href="#">Navbar</a> */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
@@ -33,9 +33,9 @@ const Menubar = () => (
                     </li>
                     
                 </ul>
-                
             </div>
         </nav>    
+                <Register />
     </div>
     
 )

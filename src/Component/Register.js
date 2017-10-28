@@ -5,7 +5,9 @@ const Register =()=> (
     <div className="container col-12">
     <div className="circle Cposition text-center " 
         data-toggle="modal" data-target="#myModal">
-        <p className="Ctext font-regis">Register NOW!</p>
+        <div className="Ctext"><span className="font-regis1 font-regis">Register</span>
+        <br/><span className="CCtext font-regis">NOW!</span>
+        </div>
     </div>
     </div>
 )

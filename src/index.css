@@ -1,109 +1,90 @@
+.font-fam {
+  font-family: 'Itim', cursive;
+}
 /* Menubar */
-
 .padding {
-    padding-left: 2rem !important;
-    padding-right: 2rem !important;
+  padding-left: 2rem !important;
+  padding-right: 2rem !important;
 }
 .nav-color {
-    background-color: #69C5B8 !important;
+  background-color: #69C5B8 !important;
 }
 .test-box {
-    height: 2000px;
-    background-color: #F3A3B0;
+  height: 3000px;
+  background-color: whitesmoke;
+  background-repeat: repeat-y;
 }
 .font-menu {
-    color: white !important;
-    font-weight: bold;
+  color: white !important;
+  font-weight: bold;
 }
-
 /*Menubar*/
 
 /*pop-up form*/
-
-.head{
-    text-decoration: underline;
-  }
-.colorform{
-    color: rgb(116, 116, 116) !important;
+.head {
+  text-decoration: underline;
 }
-  #form1 {
-    border-radius: 50px; 
-  }
-  #form2{
-  
-    border-radius: 50px;
-  }
-  #form3{
-  
-    border-radius: 50px;
-  }
-  #form4{
-  
-    border-radius: 50px;
-  }
-  #form5{
-  
-    border-radius: 50px;
-  }
-  #form6{
-  
-    border-radius: 50px;
-  }
-  #form7{
-    width: 80px;
-    border-radius: 50px;
-  }
-  #form8{
-    width: 80px;
-    border-radius: 50px;
-  }
-  #form9{
-    width: 80px;
-    border-radius: 50px;
-  }
-  #fexampleFormControlTextarea1{
-    border-radius: 20px;
-  }
-  
-  .button{
-    text-align: center;
-  }
+.colorform {
+  color: rgb(116, 116, 116) !important;
+}
+.form-regis {
+  text-align: left;
+}
+#form1 {
+  border-radius: 50px;
+}
+#form2 {
+  border-radius: 50px;
+}
+#form3 {
+  border-radius: 50px;
+}
+#form4 {
+  border-radius: 50px;
+}
+#form5 {
+  border-radius: 50px;
+}
+#form6 {
+  border-radius: 50px;
+}
+#form7 {
+  width: 80px;
+  border-radius: 50px;
+}
+#form8 {
+  width: 80px;
+  border-radius: 50px;
+}
+#form9 {
+  width: 80px;
+  border-radius: 50px;
+}
+#formTextarea {
+  border-radius: 20px;
+}
 
-  .btn-custom  {
-    color: rgb(116, 116, 116);
-    width: 110px;
-    height: 40px;
-    border-radius: 50px;
-    transition: .5s;
-    background-color: white;
-    border: 4px solid #aaaaaa;
-  }
-  .btn-custom:hover{
-    border-color: rgb(116, 116, 116)
-  }
+.button {
+  text-align: center;
+}
 
-  /*Header*/
-  .bt{
-    background-color: burlywood;
-    border:solid 1px burlywood;
-    width:130px;
-    height:130px;
-    border-radius:50%;
-    background:burlywood;
-    margin-left: 1110px;
-    margin-top: -100px;
-    box-shadow: 1px 3px 5px rgb(248, 243, 243);
-    transition:all 250ms ease-in-out;
-  }
+.btn-custom {
+  color: rgb(116, 116, 116);
+  width: 110px;
+  height: 40px;
+  border-radius: 50px;
+  transition: .5s;
+  background-color: white;
+  border: 4px solid #aaaaaa;
+}
 
   /*Register button */
   .circle {  
     width: 130px;
     height: 130px;
-    border: solid 1px rgb(3, 185, 218);
+    border: solid 1px rgb(255, 255, 255);
     border-radius: 50%;
-    background-color: rgb(92, 203, 247);
-    transition:all 350ms ease-in-out;
+    background-color: #EECC6B;
     /* box-shadow: 0px 1px px rgb(176, 255, 202); */
   }
   .Cposition {
@@ -111,19 +92,23 @@
     right: 0;
     z-index: 1500px;
     margin-right: .7cm;
-    margin-top: -630px;
+    margin-top: -750px;
     transition:scale(2.1);
   }
   .circle:hover {
     background-color: #69C5B8;
-   
+    border: dashed 2px #ffffff;
   }
   @media (max-width:414px) {
-    .circle {height:50px; border-radius: 30px;}
-    .Ctext {padding-top: 10px !important;}
+    /* .circle {height:50px; border-radius: 30px;} */
+    .font-regis1 {font-size: 20px;}
+    /* .Ctext {padding-top: 10px !important;} */
   }
   .Ctext {
-    padding-top: 53px;
+    padding-top: 35px;
+  }
+  .font-regis1 {
+    font-size: 25px;
   }
   .font-regis {
     color: #ffffff;
@@ -133,6 +118,9 @@
   /*Register button */
   
   /*button*/
+  .btn-custom:hover {
+    border-color: rgb(116, 116, 116)
+  }
   .picsuccess{
     width: 100px;
     height: 100px;
@@ -199,7 +187,9 @@
     width: 200px;
     height: 70px;
     background-color: #F3A3B0 !important;
-    box-shadow: 0px -1px 7px #7b7b7b;
+    border: hidden;
+    border-radius: 12px;
+    /* box-shadow: 0px -1px 7px #7b7b7b; */
   }
   .texttopic {
     padding-top: 10px;
@@ -209,6 +199,12 @@
   }
   .topicshadow {
     text-shadow: 0px 1px 10px #7b7b7b;
+  }
+  .mg-tp {
+    margin-top: 100px;
+  }
+  .center {
+    align-content: center;
   }
   /*topic*/
 
@@ -258,7 +254,7 @@
   .product-info {
     float: left;
     height: 420px;
-    width: 327px;
+    width: 372px;
     border-radius: 0 7px 10px 7px;
     background-color: #ffffff;
   }
@@ -320,12 +316,7 @@
     color: #474747;
   }
   
-  span {
-    display: inline-block;
-    height: 50px;
-    font-family: 'Suranna', serif;
-    font-size: 34px;
-  }
+  
   
   .product-price-btn button {
     float: right;
@@ -372,3 +363,90 @@
     margin-bottom: 290px;
   }
   /*button howto*/
+  /*content card*/
+  .conbox-ab {
+    min-height: 150px;
+    border: hidden;
+    border-radius: 20px;
+    background-color: #ffffff18;
+  }
+  .tpcontent {
+    color: rgb(121, 34, 52);
+    font-size: 30px;
+    font-weight: bold;
+  }
+  .content {
+    color: rgb(121, 34, 52);
+    font-size: 20px;
+  }
+  .mr-pad {
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+  }
+  /*content card*/
+  
+  /*more*/
+  .flex-container {
+    flex-direction: column;
+  }
+  /*more*/
+
+/*pop-up form*/
+.bt {
+  background-color: burlywood;
+  border: solid 1px burlywood;
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: burlywood;
+  margin-left: 1110px;
+  margin-top: -100px;
+  box-shadow: 1px 3px 5px rgb(248, 243, 243);
+  transition: all 250ms ease-in-out;
+}
+/*close icon popup*/
+.closeHowto {
+  width: 40px;
+  height: 40px;
+}
+/*close icon popup*/
+
+/*button howto*/
+.btn-howto {
+  color: white;
+  font-size: 16px;
+  background-color: #69C5B8;
+  border-radius: 50px;
+  width: 120px;
+  height: 60px;
+}
+/*button howto*/
+
+/*address*/
+.pad-add {
+  padding-top: 80px;
+}
+.pad-cadd {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pad-top {
+  padding-top: 5px;
+}
+.conbox-add {
+  min-height: 360px;
+  min-width: 400px;
+  border: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ffffff18;
+}
+/* .thbox {
+  height: 350px;
+} */
+.im-pad {
+  padding-top: 0px !important;
+}
+/*address*/

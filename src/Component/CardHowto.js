@@ -20,8 +20,9 @@ const CardHowto = () => (
         appear to be sliced and pulled aside,<br/> 
         allowing room for growth. </p>
       </div>
-      <div class="product-price-btn">
-        <button type="button" data-toggle="myHowto1" data-target="modal">วิธีทำ</button>
+      <div class="product-price-btn ">
+      <button type="button" data-toggle="modal" data-target="#myHowto1">วิธีทำ</button>
+      <PopupHowTo1 />
       </div>
       </div>
       
