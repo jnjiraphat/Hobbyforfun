@@ -2,7 +2,7 @@ import React from 'react'
 
 const ContentCard =()=> (
     <div className="container-fluid">
-    <div className="conbox text-center">
+    <div className="conbox-ab text-center">
     <p className="content">
         <br/>
             Hobby for fun ค่ายจิตอาสาที่ไม่ใช่เพียงค่ายทำความดีทั่วไป <br/>

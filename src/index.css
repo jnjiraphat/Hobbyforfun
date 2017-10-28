@@ -199,7 +199,7 @@
   .topicshadow {
     text-shadow: 0px 1px 10px #7b7b7b;
   }
-  .mg-tpabout {
+  .mg-tp {
     margin-top: 100px;
   }
   .center {
@@ -208,18 +208,16 @@
   /*topic*/
 
   /*content card*/
-  .conbox1 {
-    width: 700px;
-    height: 150px;
-    background-color: #FAB1BC;
-    border: 1px solid #ffffff;
-    box-shadow: 0px 1px 10px #777777;
-  }
-  .conbox {
+  .conbox-ab {
     min-height: 150px;
     border: hidden;
     border-radius: 20px;
     background-color: #ffffff18;
+  }
+  .tpcontent {
+    color: rgb(121, 34, 52);
+    font-size: 30px;
+    font-weight: bold;
   }
   .content {
     color: rgb(121, 34, 52);
@@ -269,3 +267,30 @@
   height: 60px;
 }
 /*button howto*/
+
+/*address*/
+.pad-add {
+  padding-top: 80px;
+}
+.pad-cadd {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+.pad-top {
+  padding-top: 5px;
+}
+.conbox-add {
+  min-height: 360px;
+  min-width: 400px;
+  border: hidden;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  background-color: #ffffff18;
+}
+/* .thbox {
+  height: 350px;
+} */
+.im-pad {
+  padding-top: 0px !important;
+}
+/*address*/

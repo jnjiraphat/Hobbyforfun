@@ -7,13 +7,13 @@ import Logo from './img/pic1.png'
 // import PopupHowTo2 from './Component/PopupHowto2'
 // import PopupHowTo3 from './Component/PopupHowto3'
 import TopicCard from './Component/TopicCard'
-// import Maps from './Component/Maps'
-// import Address from './Component/Address'
 import Topic from './Component/TopicCard'
 import About from './Component/About'
+import Schedule from './Component/Schedule'
+import Location from './Component/Location'
 
 const Component = () => (
-  <div className="font-fam">
+  <div className="font-fam home-wrap clearfix">
   <div className="containner-fluid">
     <div className="text-center col-lg-12 bghead">
       <div className="row">
@@ -23,18 +23,43 @@ const Component = () => (
     </div>
     <Menubar />
     <div className="test-box">
+      {/* ABOUT */}
       <div className="row col-lg-12 d-flex justify-content-center">
-      <div className="mg-tpabout">
+      <div className="mg-tp">
         <Topic message="ABOUT"/>
       </div>
-    </div>
-    <div><p></p></div>
+      </div>
+      <div><p></p></div>
       <div className="mr-pad row col-lg-12 d-flex justify-content-center">
         <About />
       </div>  
+      {/*Schedule*/}
+      <div className="row col-lg-12 d-flex justify-content-center">
+      <div className="mg-tp">
+        <Topic message="SCHEDULE"/>
+      </div>
+      </div>
+      <div><p></p></div>
+      <div className="mr-pad row col-lg-12 d-flex justify-content-center">
+        <Schedule />
+      </div>  
+      {/*Location*/}
+      
+    <div className="col-lg-12">
+      <div className="row d-flex justify-content-center">
+      <div className="mg-tp">
+        <Topic message="LOCATION"/>
+      </div>
+      </div>
+      <div><p></p></div>
+      <div className="mr-pad row d-flex justify-content-center">
+        <Location />
+      </div>  
+      </div>
+    </div>  
     </div>
   </div>
-  </div>
+  
 
   // <div className="home-wrap clearfix">
   //     < div className="text-center col-lg-12 bghead ">
