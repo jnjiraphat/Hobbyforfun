@@ -7,7 +7,7 @@ const Header = () => (
     <div className="header text-center col-lg-12 bgh">
         <div className="row">
             <div className="tect-center col-lg-12 bgtim">
-            <img src={Logo1} alt="" className="img-center" width="1150px" height="650px"/>       
+            <img src={Logo1} alt="" className="img-center img-fluid" alt="Responsive image" width="1150px" height="650px"/>       
             <Register />
         
             </div> 
