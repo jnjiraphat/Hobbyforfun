@@ -12,7 +12,7 @@ const PopupForm=()=>(
         </div>
 
         <div class="modal-body">
-        <div>
+        <div class="form-regis">
         <br/>
         <div className="container">
             <div className="row">
@@ -152,7 +152,7 @@ const PopupForm=()=>(
                 </div>
                 <div className="col-12 col-sm-10 col-lg-9">
                     <form>
-                    <textarea class="form-control" id="exampleFormControlTextarea" rows="3"></textarea>
+                    <textarea class="form-control" id="formTextarea" rows="3"></textarea>
                     </form>
                 </div>
             </div>
