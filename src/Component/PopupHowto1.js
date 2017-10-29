@@ -9,7 +9,7 @@ const PopupHowto1 = () =>(
                     <div class="modal-body">
                         <img src={Close} alt="" className="closeHowto" data-dismiss="modal" />
                         <br />
-                        <p>TEXT</p>
+                        <p2>เนื่องจากจังหวัดชื่อเพชรบูรณ์ ซึ่งแปลว่าอุดมสมบูรณ์ด้วยเพชร และมีผู้เคย ขุดพบหินที่มีความแข็ง มากกว่าหินธรรมดา</p2>
                         <br />
                     </div>
                 </div>

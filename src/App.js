@@ -3,6 +3,11 @@ import Menubar from './Component/Menubar'
 import PopupForm from './Component/PopupForm'
 import Header from './Component/Header'
 import Logo from './img/pic1.png'
+import Register from './Component/Register'
+import Article from './Component/Article'
+import CardHowto from './Component/CardHowto'
+
+
 // import PopupHowTo1 from './Component/PopupHowto1'
 // import PopupHowTo2 from './Component/PopupHowto2'
 // import PopupHowTo3 from './Component/PopupHowto3'
@@ -24,6 +29,7 @@ const Component = () => (
     </div>
     <Menubar />
     <div className="test-box">
+   
       {/* ABOUT */}
       <div className="row col-lg-12 d-flex justify-content-center">
       <div className="mg-tp">
@@ -43,6 +49,18 @@ const Component = () => (
       <div><p></p></div>
       <div className="mr-pad row col-lg-12 d-flex justify-content-center">
         <Schedule />
+      </div>
+      {/* Howto  */}
+      <div className="row col-lg-12 d-flex justify-content-center">
+      <div className="mg-tp">
+        <Topic message="ACTIVITY"/>
+      </div>
+      </div>
+      <div><p></p></div>
+      <div className="mr-pad row col-lg-12 d-flex justify-content-center">
+        <CardHowto />
+        <CardHowto />
+        <CardHowto />
       </div>  
       {/*Location*/}
       <div className="row col-lg-12 d-flex justify-content-center">
@@ -54,18 +72,8 @@ const Component = () => (
       <div className="mr-pad row d-flex justify-content-center">
         <Location />
       </div>
-      {/*How to/Activity*/}
-      <div className="row col-lg-12 d-flex justify-content-center">
-      <div className="mg-tp">
-        <Topic message="ACTIVITY"/>
       </div>
-      </div>
-      <div><p></p></div>
-      <div className="mr-pad row d-flex justify-content-center">
-        <Activity />
-      </div>  
-      </div>
-    </div>  
+  </div>
   </div>
   
 

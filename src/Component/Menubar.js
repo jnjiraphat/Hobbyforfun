@@ -1,5 +1,5 @@
 import React from 'react'
-
+import Register from './Register'
 const Menubar = () => (
     <div className="sticky-top widthnav">
         <nav className="col-lg-12 navbar navbar-expand-lg navbar-light nav-color">
@@ -20,10 +20,10 @@ const Menubar = () => (
                         <a className="nav-link padding font-menu" href="#">Schedule <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link padding font-menu" href="#">Location <span className="sr-only">(current)</span></a>
+                        <a className="nav-link padding font-menu" href="#">Activity <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link padding font-menu" href="#">Activity <span className="sr-only">(current)</span></a>
+                        <a className="nav-link padding font-menu" href="#">Location <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
                         <a className="nav-link padding font-menu" href="#">Q&A <span className="sr-only">(current)</span></a>
@@ -33,9 +33,9 @@ const Menubar = () => (
                     </li>
                     
                 </ul>
-                
             </div>
         </nav>    
+                <Register />
     </div>
     
 )
