@@ -16,7 +16,11 @@ import Topic from './Component/TopicCard'
 import About from './Component/About'
 import Schedule from './Component/Schedule'
 import Location from './Component/Location'
+<<<<<<< HEAD
 import Sponsor from './Component/Sponsor'
+=======
+import Activity from './Component/Activity'
+>>>>>>> 6c6408aa195dcdae4fa164541f9249f6e37073a6
 
 const Component = () => (
   <div className="font-fam home-wrap clearfix">
@@ -53,7 +57,7 @@ const Component = () => (
       {/* Howto  */}
       <div className="row col-lg-12 d-flex justify-content-center">
       <div className="mg-tp">
-        <Topic message="How To"/>
+        <Topic message="ACTIVITY"/>
       </div>
       </div>
       <div><p></p></div>
@@ -63,8 +67,7 @@ const Component = () => (
         <CardHowto />
       </div>  
       {/*Location*/}
-    <div className="col-lg-12">
-      <div className="row d-flex justify-content-center">
+      <div className="row col-lg-12 d-flex justify-content-center">
       <div className="mg-tp">
         <Topic message="LOCATION"/>
       </div>
@@ -72,6 +75,7 @@ const Component = () => (
       <div><p></p></div>
       <div className="mr-pad row d-flex justify-content-center">
         <Location />
+<<<<<<< HEAD
       </div>  
     </div>
       {/* Sponsor */}
@@ -88,6 +92,11 @@ const Component = () => (
     </div>
     </div>
     </div>
+=======
+      </div>
+      </div>
+  </div>
+>>>>>>> 6c6408aa195dcdae4fa164541f9249f6e37073a6
   </div>
   
 

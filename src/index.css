@@ -10,7 +10,7 @@
   background-color: #69C5B8 !important;
 }
 .test-box {
-  height: 3000px;
+  height: 5000px;
   background-color: whitesmoke;
   background-repeat: repeat-y;
 }
@@ -443,14 +443,12 @@
   border-bottom-right-radius: 20px;
   background-color: #ffffff18;
 }
-/* .thbox {
-  height: 350px;
-} */
 .im-pad {
   padding-top: 0px !important;
 }
 /*address*/
 
+<<<<<<< HEAD
 /*sponsor*/
 #pic1 {
   width: 200px;
@@ -473,3 +471,5 @@
   background-color: rgb(255, 255, 255);
 }
 /*sponsor*/
+=======
+>>>>>>> 6c6408aa195dcdae4fa164541f9249f6e37073a6
