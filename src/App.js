@@ -16,6 +16,7 @@ import Topic from './Component/TopicCard'
 import About from './Component/About'
 import Schedule from './Component/Schedule'
 import Location from './Component/Location'
+import Sponsor from './Component/Sponsor'
 
 const Component = () => (
   <div className="font-fam home-wrap clearfix">
@@ -72,9 +73,20 @@ const Component = () => (
       <div className="mr-pad row d-flex justify-content-center">
         <Location />
       </div>  
-      </div>
     </div>
-  
+      {/* Sponsor */}
+    <div className="col-lg-12">
+      <div className="row col-lg-12 d-flex justify-content-center">
+      <div className="mg-tp">
+        <Topic message="SPONSOR"/>
+      </div>
+      </div>
+      <div><p></p></div>
+      <div className="mr-pad row d-flex justify-content-center">
+        <Sponsor />
+      </div>  
+    </div>
+    </div>
     </div>
   </div>
   

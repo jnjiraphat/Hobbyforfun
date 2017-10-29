@@ -450,3 +450,26 @@
   padding-top: 0px !important;
 }
 /*address*/
+
+/*sponsor*/
+#pic1 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+#pic2 {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+#pic3 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+
+.panel-body {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+}
+/*sponsor*/
