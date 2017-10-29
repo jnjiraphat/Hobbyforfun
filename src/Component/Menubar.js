@@ -23,7 +23,7 @@ const Menubar = () => (
                         <a className="nav-link padding font-menu" href="#">Location <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link padding font-menu" href="#">How to <span className="sr-only">(current)</span></a>
+                        <a className="nav-link padding font-menu" href="#">Activity <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
                         <a className="nav-link padding font-menu" href="#">Q&A <span className="sr-only">(current)</span></a>

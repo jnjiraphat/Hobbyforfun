@@ -11,6 +11,7 @@ import Topic from './Component/TopicCard'
 import About from './Component/About'
 import Schedule from './Component/Schedule'
 import Location from './Component/Location'
+import Activity from './Component/Activity'
 
 const Component = () => (
   <div className="font-fam home-wrap clearfix">
@@ -44,9 +45,7 @@ const Component = () => (
         <Schedule />
       </div>  
       {/*Location*/}
-      
-    <div className="col-lg-12">
-      <div className="row d-flex justify-content-center">
+      <div className="row col-lg-12 d-flex justify-content-center">
       <div className="mg-tp">
         <Topic message="LOCATION"/>
       </div>
@@ -54,10 +53,19 @@ const Component = () => (
       <div><p></p></div>
       <div className="mr-pad row d-flex justify-content-center">
         <Location />
+      </div>
+      {/*How to/Activity*/}
+      <div className="row col-lg-12 d-flex justify-content-center">
+      <div className="mg-tp">
+        <Topic message="ACTIVITY"/>
+      </div>
+      </div>
+      <div><p></p></div>
+      <div className="mr-pad row d-flex justify-content-center">
+        <Activity />
       </div>  
       </div>
     </div>  
-    </div>
   </div>
   
 
