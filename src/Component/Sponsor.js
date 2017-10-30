@@ -6,6 +6,7 @@ import Vivo from '../img/vivo.png'
 const Sponsor = () =>(
     <div>
         <br />
+        <br />
         <table>
             <thead>
             <tr>

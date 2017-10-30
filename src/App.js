@@ -18,6 +18,7 @@ import Schedule from './Component/Schedule'
 import Location from './Component/Location'
 import Sponsor from './Component/Sponsor'
 import Activity from './Component/Activity'
+import Contact from './Component/Contact'
 
 const Component = () => (
   <div className="font-fam home-wrap clearfix">
@@ -72,7 +73,20 @@ const Component = () => (
       <div><p></p></div>
       <div className="mr-pad row d-flex justify-content-center">
         <Location />
+      </div> 
+      
+      {/* Contact */}
+      <div className="col-lg-12">
+      <div className="row col-lg-12 d-flex justify-content-center">
+      <div className="mg-tp">
+        <Topic message="CONTACT"/>
+      </div>
+      </div>
+      <div><p></p></div>
+      <div className="mr-pad row d-flex justify-content-center">
+        <Contact />
       </div>  
+    </div> 
       {/* Sponsor */}
       <div className="col-lg-12">
       <div className="row col-lg-12 d-flex justify-content-center">
