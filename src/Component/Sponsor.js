@@ -11,7 +11,7 @@ const Sponsor = () =>(
             <tr>
             <th className="box-sponsor">
         <div class="panel">
-            <div class="panel-body">
+            <div class="panel-body hvr-pulse-grow">
                 <img src={KMUTT} alt="" id="pic1" />
             </div>
         </div>
@@ -19,7 +19,7 @@ const Sponsor = () =>(
 
             <th className="box-sponsor">
         <div class="panel">
-            <div class="panel-body">
+            <div class="panel-body hvr-pulse-grow">
                 <img src={Lactasoy} alt="" id="pic2" />
             </div>
         </div>
@@ -27,7 +27,7 @@ const Sponsor = () =>(
 
             <th className="box-sponsor">
         <div class="panel">
-            <div class="panel-body">
+            <div class="panel-body hvr-pulse-grow">
                 <img src={Vivo} alt="" id="pic3" />
             </div>
         </div>
