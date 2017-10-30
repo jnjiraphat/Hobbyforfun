@@ -471,10 +471,41 @@
 
   /* Ask */
   .font-ask {
-    font-size: 28px;
+    font-size: 23px;
   }
   .wask {
     width: 800px;
     height: 200px;
   }
   /* Ask */
+
+/*sponsor*/
+#pic1 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+#pic2 {
+  width: 300px;
+  height: 200px;
+  margin: 10px;
+}
+#pic3 {
+  width: 200px;
+  height: 200px;
+  margin: 10px;
+}
+.panel-body {
+  border-radius: 10px;
+  background-color: rgb(255, 255, 255);
+  margin-left: 30px;
+  -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+  box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+}
+/*sponsor*/
+
+/*contact*/
+.contact{
+  font-size: 25px;
+}

@@ -16,6 +16,7 @@ import Schedule from './Component/Schedule'
 import Location from './Component/Location'
 import Sponsor from './Component/Sponsor'
 import Activity from './Component/Activity'
+import Contact from './Component/Contact'
 
 const Component = () => (
   <div className="font-fam">
@@ -85,6 +86,19 @@ const Component = () => (
             <div className="mr-pad row d-flex justify-content-center">
               <Ask />
           </div>
+          {/* Contact */}
+          <div className="row">
+            <div className="col-lg-12 d-flex justify-content-center">
+              <div className="mg-tp">
+                <Topic message="CONTACT"/>
+              </div>
+            </div>
+          </div>
+          <div><p></p></div>
+          <div className="mr-pad row d-flex justify-content-center">
+            <Contact />
+          </div>  
+
           {/* Sponsor */}
           <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
@@ -102,36 +116,6 @@ const Component = () => (
     </div>
   </div>
   </div>
-
-
-  // <div className="home-wrap clearfix">
-  //     < div className="text-center col-lg-12 bghead ">
-  //       <div className="row">
-  //         <Header />
-  //       </div>
-  //         <Register />
-  //         <PopupForm />
-  //       <div className="row">
-  //         <div className="text-center col-lg-12 bgnav ">
-  //           <Menubar />
-  //         </div>
-  //       <div className="row">
-  //         <div className="text-center col-lg-12 bgnav ">
-  //         </div>
-
-  //ไว้รวมอีกที
-
-  /*<div>
-    <!-- Knitting -->
-    <button type="button" class="btn-howto" data-toggle="modal" data-target="#myHowto1">วิธีทำ</button>
-    <PopupHowTo1 />
-    <!-- Paper flower -->
-    <button type="button" class="btn-howto" data-toggle="modal" data-target="#myHowto2">วิธีทำ</button>
-    <PopupHowTo2 />
-    <!-- Model with glue -->
-    <button type="button" class="btn-howto" data-toggle="modal" data-target="#myHowto3">วิธีทำ</button>
-    <PopupHowTo3 />
-  </div>*/
 )
 
 export default Component
