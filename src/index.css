@@ -1,6 +1,18 @@
 .font-fam {
   font-family: 'Itim', cursive;
 }
+hcard{
+  font-family: 'Itim', cursive;
+  font-size: 30px ; 
+  margin-left: 30px;
+}
+hr{
+  margin-left: 30px;
+  margin-top: -20px;
+}
+.p2{
+  text-align: left;
+}
 /* Menubar */
 .padding {
   padding-left: 2rem !important;
@@ -10,9 +22,12 @@
   background-color: #69C5B8 !important;
 }
 .test-box {
-  height: 5000px;
+  /* background-image: url('./img/402.jpg')!important; */
+  background-repeat: no-repeat;
+  background-position: top center;
   background-color: whitesmoke;
-  background-repeat: repeat-y;
+
+
 }
 .font-menu {
   color: white !important;
@@ -85,19 +100,22 @@
     border: solid 1px rgb(255, 255, 255);
     border-radius: 50%;
     background-color: #EECC6B;
+    transition:all 550ms ease-in-out;
     /* box-shadow: 0px 1px px rgb(176, 255, 202); */
   }
   .Cposition {
     position: fixed;
     right: 0;
     z-index: 1500px;
-    margin-right: .7cm;
+    margin-right: .3cm;
     margin-top: -750px;
-    transition:scale(2.1);
+ 
   }
   .circle:hover {
     background-color: #69C5B8;
     border: dashed 2px #ffffff;
+    transition: scale(2.1);
+    margin-right: .3cm;
   }
   @media (max-width:414px) {
     /* .circle {height:50px; border-radius: 30px;} */
@@ -239,6 +257,8 @@
     -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
     -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
     box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    margin-top: 50px;
+    margin-bottom: 50px;
   }
   
   .product-img {

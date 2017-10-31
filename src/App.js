@@ -60,8 +60,6 @@ const Component = () => (
       <div><p></p></div>
       <div className="mr-pad row col-lg-12 d-flex justify-content-center">
         <CardHowto />
-        <CardHowto />
-        <CardHowto />
       </div>  
       {/*Location*/}
       <div className="row col-lg-12 d-flex justify-content-center">
