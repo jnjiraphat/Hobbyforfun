@@ -8,7 +8,6 @@ const Contact=()=> (
         JENNY : xxx-xxx-xxxx <br/>
         MILD : xxx-xxx-xxxx  <br/>
         GIF : xxx-xxx-xxxx <br/>
-        <br/>
     </p>
     </div>
     </div>

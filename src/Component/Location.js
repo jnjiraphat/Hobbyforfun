@@ -7,6 +7,7 @@ const Maps = () =>(
             <tr>
             <th className="im-pad thbox">
         <div class="map">
+            <br /><br />
             <iframe 
                 width="600" 
                 height="366" 

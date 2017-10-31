@@ -20,8 +20,6 @@ import Footer from './Component/Footer'
 const Component = () => (
   <div className="font-fam">
   <div className="home-wrap clearfix">
-    <div className="row">
-      <div className="container-fluid">
         <div className="text-center col-lg-12 bghead">
           <div className="row">
             <Header />
@@ -110,10 +108,9 @@ const Component = () => (
       </div>  
   </div>
   </div>
-  </div>
+
       {/* Footer */}
         <Footer />      
-  </div>
   </div>
 )
 

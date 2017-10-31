@@ -8,7 +8,7 @@ const PopupHowto3 = () => (
                 <div className="modal-content">
                     <div className="modal-body">
                         <img src={Close} alt="" className="closeHowto" data-dismiss="modal" />
-                        <br />
+                        <br /><br /><br />
                         <div className="p2">
                             ตัวอย่างการทำโมเดลจากปืนกาว<br /><br />
                             <iframe width="420" height="315" className="pic2"

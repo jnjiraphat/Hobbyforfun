@@ -6,7 +6,6 @@ import Vivo from '../img/vivo.png'
 const Sponsor = () =>(
     <div>
         <br />
-        <br />
         <table>
             <thead>
             <tr>
@@ -36,7 +35,7 @@ const Sponsor = () =>(
             </tr>
             </thead>        
         </table>
-        <br /><br />
+        <br /><br /><br />
     </div>
 )
 export default Sponsor

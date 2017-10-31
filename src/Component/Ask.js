@@ -1,6 +1,7 @@
 import React from 'react'
 const Ask =()=> (
     <div className="font-ask">
+        <br />
         <div id="accordion" role="tablist">
         <div class="card">
         <div class="card-header bg-askl waskl" role="tab" id="headingOne">
@@ -28,7 +29,7 @@ const Ask =()=> (
         <div id="collapseTwo" class="collapse" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
             <div class="card-body wask bg-ask">
                 A : ค่ายนี้รับจำนวนทั้งหมด 30 คน โดยเปิดรับทุกคนที่เป็นนักศึกษามหาวิทยาลัยพระจอมเกล้าธนบุรี
-                ซึ่งรับเฉพาะ 30 คนแรกที่สมัครเข้ามาก่อนเท่านั้น นอกจากนี้น้องๆที่เข้าค่ายจะได้รับชั่วโมงกิจกกรรมอีกด้วยค่ะ 
+                ซึ่งรับเฉพาะ 30 คนแรกที่สมัครเข้ามาก่อนเท่านั้น นอกจากนี้น้องๆที่เข้าค่ายจะได้รับชั่วโมงกิจกรรมอีกด้วยค่ะ 
             </div>
         </div>
     </div>

@@ -11,9 +11,9 @@ const PopupHowto2 = () => (
                 <div className="modal-content">
                     <div className="modal-body">
                         <img src={Close} alt="Responsive image" className="closeHowto" data-dismiss="modal" />
-                        <br />
+                        <br /><br /><br />
                         <div className="p2">ประดิษฐ์ดอกไม้สวยๆ ประดับบ้าน<br />
-                            อุปกรณ์ <br />
+                            <u>อุปกรณ์</u><br />
                             1.กระดาษย่นสีอ่อน<br />
                             2.สีน้ำ<br />
                             3.พู่กัน<br />
@@ -23,13 +23,14 @@ const PopupHowto2 = () => (
                             7.กาว<br />
                             8.แจกัน<br /><br />
 
-                            วิธีทำ<br />
+                            <u>วิธีทำ</u><br />
                             1.นำกระดาษย่นสีชมพูอ่อน วาดลายดอกไม้ลงไป (ทำให้เป็นกลีบดอก)<br />
                             2.ตัดกลีบดอกไม้ที่ละกลีบ<br />
                             3.นำมาติดรวมกัน รัดด้วยด้าย ทำให้เป็นดอกไม้สวยๆ พันก้านด้วยกระดาษย่นสีเขียว<br />
                             4.นำไปผูกติดกับกิ่งไม้<br />
-                            5.ติดใบเลี้ยงเล็กๆ ตรงก้านดอกไม้PicFlo1<br />
+                            5.ติดใบเลี้ยงเล็กๆ ตรงก้านดอกไม้<br />
                             6.นำไปใส่แจกันสวยๆ ประดับบ้าน<br />
+                            <br />
                             <img src={PicFlo1} alt="Responsive image" className="pic1" data-dismiss="modal" width="400px" height="270px"  />
                             <br /><br /><br />
                             <img src={PicFlo2} alt="Responsive image" className="pic1" data-dismiss="modal" width="400px" height="270px" />
