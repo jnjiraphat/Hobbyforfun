@@ -5,7 +5,8 @@ import PopupHowTo3 from './PopupHowto3'
 import Logo3 from '../img/pic2.jpg'
 import Flower from '../img/flower1.jpg'
 import Model from '../img/gun.jpg'
-const CardHowto = () => (
+
+const CardHowto = (props) => (
     <div className="text-center col-lg-12">
 
     <div className="wrapper">
@@ -44,7 +45,7 @@ const CardHowto = () => (
         allowing room for growth. </p>
       </div>
       <div class="product-price-btn ">
-      <button type="button" data-toggle="modal" data-target="#myHowto1">วิธีทำ</button>
+      <button type="button" data-toggle="modal" data-target="#myHowto2">วิธีทำ</button>
       <PopupHowTo2 />
       </div>
       </div>
@@ -66,7 +67,7 @@ const CardHowto = () => (
         allowing room for growth. </p>
       </div>
       <div class="product-price-btn ">
-      <button type="button" data-toggle="modal" data-target="#myHowto1">วิธีทำ</button>
+      <button type="button" data-toggle="modal" data-target="#myHowto3">วิธีทำ</button>
       <PopupHowTo3 />
       </div>
       </div>

@@ -8,8 +8,6 @@ const Header = () => (
         <div className="row">
             <div className="tect-center col-lg-12 bgtim">
             <img src={Logo1} alt="" className="img-center img-fluid" alt="Responsive image" width="1250px" height="650px"/>       
-          
-        
             </div> 
         </div>
     </div>

@@ -1,5 +1,6 @@
 .font-fam {
-  font-family: 'Itim', cursive;
+  font-family: 'Itim', cursive !important;
+  font-family: 'Sriracha', cursive;
 }
 hcard{
   font-family: 'Itim', cursive;
@@ -9,6 +10,10 @@ hcard{
 hr{
   margin-left: 30px;
   margin-top: -20px;
+}
+.bgfooter{
+  height: 50px;
+  background-color: rgb(121, 173, 171);
 }
 .p2{
   text-align: left;
@@ -22,7 +27,7 @@ hr{
   background-color: #69C5B8 !important;
 }
 .test-box {
-  /* background-image: url('./img/402.jpg')!important; */
+  background-image: url('./img/402.png')!important;
   background-repeat: no-repeat;
   background-position: top center;
   background-color: whitesmoke;
@@ -32,6 +37,7 @@ hr{
 .font-menu {
   color: white !important;
   font-weight: bold;
+  font-size: 20px;
 }
 /*Menubar*/
 
@@ -110,6 +116,8 @@ hr{
     margin-right: .3cm;
     margin-top: -750px;
  
+    transition: .5s;
+    cursor: pointer;
   }
   .circle:hover {
     background-color: #69C5B8;
@@ -118,9 +126,7 @@ hr{
     margin-right: .3cm;
   }
   @media (max-width:414px) {
-    /* .circle {height:50px; border-radius: 30px;} */
     .font-regis1 {font-size: 20px;}
-    /* .Ctext {padding-top: 10px !important;} */
   }
   .Ctext {
     padding-top: 35px;
@@ -290,16 +296,16 @@ hr{
     font-size: 34px;
     color: #474747;
   }
-  
+/*   
   .product-text h1,
   .product-price-btn p {
     font-family: 'Bentham', serif;
   }
-  
+   */
   .product-text h2 {
     margin: 0 0 47px 38px;
     font-size: 13px;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     font-weight: 400;
     text-transform: uppercase;
     color: #d2d2d2;
@@ -309,10 +315,10 @@ hr{
   .product-text p {
     height: 125px;
     margin: 0 0 0 38px;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     color: #8d8d8d;
     line-height: 1.7em;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: lighter;
     overflow: hidden;
   }
@@ -329,7 +335,7 @@ hr{
     position: absolute;
     top: -13px;
     height: 50px;
-    font-family: 'Trocchi', serif;
+    /* font-family: 'Trocchi', serif; */
     margin: 0 0 0 38px;
     font-size: 28px;
     font-weight: lighter;
@@ -347,9 +353,10 @@ hr{
     box-sizing: border-box;
     border: transparent;
     border-radius: 60px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 20px;
     font-weight: 500;
+    transition: .5s;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #ffffff;
@@ -360,6 +367,10 @@ hr{
   
   .product-price-btn button:hover {
     background-color: #79b0a1;
+  }
+  .pic1{
+    margin-right: 50px;
+    margin-left: 30px;
   }
   /*cardhowto*/
 
@@ -397,7 +408,7 @@ hr{
   }
   .content {
     color: rgb(121, 34, 52);
-    font-size: 20px;
+    font-size: 23px;
   }
   .mr-pad {
     margin-right: 0px !important;
@@ -406,67 +417,116 @@ hr{
     padding-right: 0px !important;
   }
   /*content card*/
-  
-  /*more*/
-  .flex-container {
-    flex-direction: column;
+
+  /*pop-up form*/
+  .bt {
+    background-color: burlywood;
+    border: solid 1px burlywood;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    background: burlywood;
+    margin-left: 1110px;
+    margin-top: -100px;
+    box-shadow: 1px 3px 5px rgb(248, 243, 243);
+    transition: all 250ms ease-in-out;
   }
-  /*more*/
+  /*close icon popup*/
+  .closeHowto {
+    width: 40px;
+    height: 40px;
+  }
+  /*close icon popup*/
 
-/*pop-up form*/
-.bt {
-  background-color: burlywood;
-  border: solid 1px burlywood;
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  background: burlywood;
-  margin-left: 1110px;
-  margin-top: -100px;
-  box-shadow: 1px 3px 5px rgb(248, 243, 243);
-  transition: all 250ms ease-in-out;
-}
-/*close icon popup*/
-.closeHowto {
-  width: 40px;
-  height: 40px;
-}
-/*close icon popup*/
+  /*button howto*/
+  .btn-howto {
+    color: white;
+    font-size: 16px;
+    background-color: #69C5B8;
+    border-radius: 50px;
+    width: 120px;
+    height: 60px;
+  }
+  /*button howto*/
 
-/*button howto*/
-.btn-howto {
-  color: white;
-  font-size: 16px;
-  background-color: #69C5B8;
-  border-radius: 50px;
-  width: 120px;
-  height: 60px;
-}
-/*button howto*/
+  /*address*/
+  .pad-add {
+    padding-top: 80px;
+  }
+  .pad-cadd {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .pad-top {
+    padding-top: 5px;
+  }
+  .conbox-add {
+    min-height: 360px;
+    min-width: 400px;
+    border: hidden;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    background-color: #ffffff18;
+  }
+  .im-pad {
+    padding-top: 0px !important;
+  }
+  /*address*/
 
-/*address*/
-.pad-add {
-  padding-top: 80px;
-}
-.pad-cadd {
-  padding-left: 20px;
-  padding-right: 20px;
-}
-.pad-top {
-  padding-top: 5px;
-}
-.conbox-add {
-  min-height: 360px;
-  min-width: 400px;
-  border: hidden;
-  border-top-right-radius: 20px;
-  border-bottom-right-radius: 20px;
-  background-color: #ffffff18;
-}
-.im-pad {
-  padding-top: 0px !important;
-}
-/*address*/
+  /*sponsor*/
+  #pic1 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  #pic2 {
+    width: 300px;
+    height: 200px;
+    margin: 10px;
+  }
+  #pic3 {
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+  }
+  .panel-body {
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+    margin-left: 30px;
+    -webkit-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    -moz-box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
+    box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15) !important;  
+  }
+  /* sponsor */
+
+  /* Ask */
+  .bg-ask {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  .bg-askl {
+    background-color: rgb(255, 170, 186) !important;
+  }
+  .font-ask {
+    font-size: 23px !important;
+    color: #A24050 !important;
+  }
+  .font-ask a {
+    color: #A24050;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .font-ask a:hover {
+    color: #A24050;
+    text-decoration: none;
+  }
+  .wask {
+    width: 900px;
+    height: 200px;
+  }
+  .waskl {
+    width: 900px !important;
+  }
+  /* Ask */
 
 /*sponsor*/
 #pic1 {
@@ -493,3 +553,19 @@ hr{
   box-shadow: 0px 14px 32px 0px rgba(0, 0, 0, 0.15);
 }
 /*sponsor*/
+
+/*contact*/
+.contact{
+  font-size: 25px;
+}
+/*contact*/
+
+/* schedule */
+.picsche {
+  width: 620px;
+  height: 500px;
+  border: hidden;
+  border-radius: 20px;
+}
+/* schedule */
+
