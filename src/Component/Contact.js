@@ -5,7 +5,6 @@ const Contact=()=> (
     <div className="conbox-ab text-center">
     <p className="contact">
         <br/>
-        <br/>
         JENNY : xxx-xxx-xxxx <br/>
         MILD : xxx-xxx-xxxx  <br/>
         GIF : xxx-xxx-xxxx <br/>

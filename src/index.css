@@ -11,7 +11,6 @@
   background-color: #69C5B8 !important;
 }
 .test-box {
-  height: 5000px;
   background-color: whitesmoke;
   background-repeat: repeat-y;
 }
@@ -271,16 +270,16 @@
     font-size: 34px;
     color: #474747;
   }
-  
+/*   
   .product-text h1,
   .product-price-btn p {
     font-family: 'Bentham', serif;
   }
-  
+   */
   .product-text h2 {
     margin: 0 0 47px 38px;
     font-size: 13px;
-    font-family: 'Raleway', sans-serif;
+    /* font-family: 'Raleway', sans-serif; */
     font-weight: 400;
     text-transform: uppercase;
     color: #d2d2d2;
@@ -290,10 +289,10 @@
   .product-text p {
     height: 125px;
     margin: 0 0 0 38px;
-    font-family: 'Playfair Display', serif;
+    /* font-family: 'Playfair Display', serif; */
     color: #8d8d8d;
     line-height: 1.7em;
-    font-size: 15px;
+    font-size: 18px;
     font-weight: lighter;
     overflow: hidden;
   }
@@ -310,7 +309,7 @@
     position: absolute;
     top: -13px;
     height: 50px;
-    font-family: 'Trocchi', serif;
+    /* font-family: 'Trocchi', serif; */
     margin: 0 0 0 38px;
     font-size: 28px;
     font-weight: lighter;
@@ -328,9 +327,10 @@
     box-sizing: border-box;
     border: transparent;
     border-radius: 60px;
-    font-family: 'Raleway', sans-serif;
-    font-size: 14px;
+    /* font-family: 'Raleway', sans-serif; */
+    font-size: 20px;
     font-weight: 500;
+    transition: .5s;
     text-transform: uppercase;
     letter-spacing: 0.2em;
     color: #ffffff;
@@ -378,7 +378,7 @@
   }
   .content {
     color: rgb(121, 34, 52);
-    font-size: 28px;
+    font-size: 23px;
   }
   .mr-pad {
     margin-right: 0px !important;
@@ -470,12 +470,31 @@
   /* sponsor */
 
   /* Ask */
+  .bg-ask {
+    background-color: rgb(255, 255, 255) !important;
+  }
+  .bg-askl {
+    background-color: rgb(255, 170, 186) !important;
+  }
   .font-ask {
-    font-size: 23px;
+    font-size: 23px !important;
+    color: #A24050 !important;
+  }
+  .font-ask a {
+    color: #A24050;
+    font-weight: bold;
+    font-size: 24px;
+  }
+  .font-ask a:hover {
+    color: #A24050;
+    text-decoration: none;
   }
   .wask {
-    width: 800px;
+    width: 900px;
     height: 200px;
+  }
+  .waskl {
+    width: 900px !important;
   }
   /* Ask */
 
@@ -509,3 +528,13 @@
 .contact{
   font-size: 25px;
 }
+/*contact*/
+
+/* schedule */
+.picsche {
+  width: 620px;
+  height: 500px;
+  border: hidden;
+  border-radius: 20px;
+}
+/* schedule */

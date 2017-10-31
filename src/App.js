@@ -9,7 +9,6 @@ import Ask from './Component/Ask'
 // import PopupHowTo1 from './Component/PopupHowto1'
 // import PopupHowTo2 from './Component/PopupHowto2'
 // import PopupHowTo3 from './Component/PopupHowto3'
-import TopicCard from './Component/TopicCard'
 import Topic from './Component/TopicCard'
 import About from './Component/About'
 import Schedule from './Component/Schedule'
@@ -17,7 +16,6 @@ import Location from './Component/Location'
 import Sponsor from './Component/Sponsor'
 import Activity from './Component/Activity'
 import Contact from './Component/Contact'
-
 const Component = () => (
   <div className="font-fam">
   <div className="home-wrap clearfix">
@@ -78,7 +76,7 @@ const Component = () => (
           <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">
               <div className="mg-tp">
-                <Topic message="Q&A" />
+                <Topic message="FAQs" />
               </div>
           </div>
             </div>
@@ -98,7 +96,6 @@ const Component = () => (
           <div className="mr-pad row d-flex justify-content-center">
             <Contact />
           </div>  
-
           {/* Sponsor */}
           <div className="row">
             <div className="col-lg-12 d-flex justify-content-center">

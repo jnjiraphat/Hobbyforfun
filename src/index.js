@@ -6,5 +6,6 @@ import './static/css/bootstrap.min.css'
 import registerServiceWorker from './registerServiceWorker';
 import './static/css/animate.css'
 import './static/css/hover-min.css'
+
 ReactDOM.render(<App />, document.getElementById('root'));
 registerServiceWorker();
