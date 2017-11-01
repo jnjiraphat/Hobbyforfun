@@ -22,7 +22,7 @@ const Ask =()=> (
         <div class="card-header bg-askl waskl" role="tab" id="headingTwo">
             
                 <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
-                    Q : ค่ายนี้ไปกลับได้หรือไม่?
+                    Q : ค่ายนี้รับกี่คน คัดเลือกอย่างไร?
                 </a>
             
         </div>

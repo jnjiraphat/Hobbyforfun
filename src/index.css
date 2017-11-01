@@ -39,6 +39,12 @@ hr{
   font-weight: bold;
   font-size: 20px;
 }
+.font-menu:hover {
+  cursor: pointer;
+}
+.boxfont:hover {
+  background-color: rgb(47, 151, 136);
+}
 /*Menubar*/
 
 /*pop-up form*/
