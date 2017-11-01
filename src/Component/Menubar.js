@@ -5,6 +5,37 @@ import Scroll from 'react-scroll';
 let Link       = Scroll.Link;
 let Element    = Scroll.Element;
 
+const Manus = [
+    {
+        to: 'home',
+        title: 'Home'
+    },
+    {
+        to: 'about',
+        title: 'About'
+    },
+    {
+        to: 'schedule',
+        title: 'Schedule'
+    },
+    {
+        to: 'activity',
+        title: 'Activity'
+    },
+    {
+        to: 'location',
+        title: 'Location'
+    },
+    {
+        to: 'faqs',
+        title: 'FAQs'
+    },
+    {
+        to: 'contact',
+        title: 'Contact'
+    },
+]
+
 const Menubar = () => (
     <div className="sticky-top widthnav "data-spy="scroll" data-target=".navbar" data-offset="50">
         <nav className="col-lg-12 navbar navbar-expand-lg navbar-light nav-color">
@@ -13,34 +44,29 @@ const Menubar = () => (
                 <span className="navbar-toggler-icon"></span>
             </button>
             <div className="collapse navbar-collapse justify-content-center font-menu" id="navbarNav">
-                
                 <ul className="navbar-nav text-center">
-                    <li className="nav-item active">
-                        <Link activeClass="active" className="boxfont nav-link padding font-menu" to="home" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Home <span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item active">
-                        <Link activeClass="active" className="boxfont nav-link padding font-menu" to="about" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>About <span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item active">
-                        <Link activeClass="active" className="boxfont nav-link padding font-menu" to="schedule" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Schedule <span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item active">
-                        <Link activeClass="active" className="boxfont nav-link padding font-menu" to="activity" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Activity <span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item active">
-                        <Link activeClass="active" className="boxfont nav-link padding font-menu" to="location" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Location <span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item active">
-                        <Link activeClass="active" className="boxfont nav-link padding font-menu" to="faqs" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>FAQs <span className="sr-only">(current)</span></Link>
-                    </li>
-                    <li className="nav-item active">
-                        <Link activeClass="active" className="boxfont nav-link padding  font-menu" to="contact" spy={true} smooth={true} offset={50} duration={500} onSetActive={this.handleSetActive}>Contact <span className="sr-only">(current)</span></Link>
-                    </li>
-                    
+                    {
+                        Manus.map(manu => (
+                            <li className="nav-item active">
+                                <Link
+                                    activeClass="active"
+                                    className="boxfont nav-link padding font-menu"
+                                    to={manu.to}
+                                    spy
+                                    smooth
+                                    offset={-30}
+                                    duration={500}
+                                    onSetActive={this.handleSetActive}
+                                >
+                                    {manu.title}
+                                </Link>
+                            </li>
+                        ))
+                    }
                 </ul>
             </div>
-        </nav>    
-                <Register />
+        </nav>
+                    <Register />
     </div>
     
     
