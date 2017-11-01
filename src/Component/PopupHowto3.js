@@ -11,10 +11,10 @@ const PopupHowto3 = () => (
                         <br /><br /><br />
                         <div className="p2">
                             ตัวอย่างการทำโมเดลจากปืนกาว<br /><br />
-                            <iframe width="420" height="315" className="pic2"
-                                src="https://www.youtube.com/embed/XGSy3_Czz8k?controls=0">
-                            </iframe>
-                            <br />
+                            <div class="video-container">
+                            <iframe src="https://www.youtube.com/embed/oNfHb-UmZaU"
+                             frameborder="0" gesture="media" allowfullscreen width="400" height="315" />
+                            </div>
                         </div>
                     </div>
                 </div>

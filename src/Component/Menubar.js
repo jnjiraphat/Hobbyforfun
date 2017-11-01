@@ -37,7 +37,7 @@ const Manus = [
 ]
 
 const Menubar = () => (
-    <div className="sticky-top widthnav">
+    <div className="sticky-top widthnav "data-spy="scroll" data-target=".navbar" data-offset="50">
         <nav className="col-lg-12 navbar navbar-expand-lg navbar-light nav-color">
             {/* <Link className="navbar-brand" to="">Navbar</Link> */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -71,6 +71,7 @@ const Menubar = () => (
         </nav>
                     <Register />
     </div>
+    
     
 )
 

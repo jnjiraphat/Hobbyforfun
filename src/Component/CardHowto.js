@@ -7,10 +7,13 @@ import Flower from '../img/flower1.jpg'
 import Model from '../img/gun.jpg'
 
 const CardHowto = (props) => (
-    <div className="text-center container-fluid">
+  <div className="row">
+    <div className="col-lg-12">
+    <div className="text-center">
+
     <div className="wrapper">
-    <div className="product-img d-flex justify-content-center">
-    <img src={Logo3} height="420" className="img-center img-fluid" alt="Responsive image" />
+    <div className="product-img">
+    <img src={Logo3} height="420" width="327" className="img-center img-fluid" alt="Responsive image" />
     </div>
     <div className="product-info">
       <div className="product-text">
@@ -25,9 +28,9 @@ const CardHowto = (props) => (
       <PopupHowTo1 />
       </div>
       </div>
+      
     </div>
-
-    <div className="text-center">
+    
     <div className="wrapper">
     <div className="product-img">
     <img src={Flower} height="420" width="327" className="img-center img-fluid" alt="Responsive image" />
@@ -37,7 +40,7 @@ const CardHowto = (props) => (
         <br />
         <hcard>ดอกไม้ประดิษฐ์</hcard>
         <hr/>
-        <p>ประดิษฐ์ดอกไม้สวยๆ ประดับบ้าน...</p>
+        <p>ดอกไม้ประดิษฐ์ หมายถึง สิ่งประดิษฐ์ขึ้นจากวัสดุมีลักษณะคล้ายรูปร่างดอกไม้ ที่ถูกผลิตขึ้นมาจากแรงงานฝีมือมนุษย์ เครื่องจักร หรืออุปกรณ์การผลิต ...</p>
       </div>
       <div class="product-price-btn ">
       <button type="button" data-toggle="modal" data-target="#myHowto2">วิธีทำ</button>
@@ -45,8 +48,8 @@ const CardHowto = (props) => (
       </div>
       </div>
       </div>
-    </div>
-
+ 
+    
     <div className="wrapper">
     <div className="product-img">
     <img src={Model} height="420" width="327" className="img-center img-fluid" alt="Responsive image" />
@@ -56,6 +59,7 @@ const CardHowto = (props) => (
         <br />
         <hcard>โมเดลจากปืนกาว</hcard>
         <hr/>
+        <p>โมเดลจากปืนกาว คือ การที่นำกาวร้อนจากปืนกาวมาสร้างเป็นโมเดลต่างๆ ....</p>
         <p>ตัวอย่างการทำโมเดลจากปืนกาว...</p>
       </div>
       <div class="product-price-btn ">
@@ -65,6 +69,8 @@ const CardHowto = (props) => (
       </div>
       
     </div>
+  </div>
+  </div>
   </div>
 
 )

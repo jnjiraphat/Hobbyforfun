@@ -8,6 +8,7 @@ import Header from './Component/Header'
 import Register from './Component/Register'
 import CardHowto from './Component/CardHowto'
 import Ask from './Component/Ask'
+
 // import PopupHowTo1 from './Component/PopupHowto1'
 // import PopupHowTo2 from './Component/PopupHowto2'
 // import PopupHowTo3 from './Component/PopupHowto3'
@@ -43,6 +44,7 @@ const Component = () => (
         <div className="mr-pad row col-lg-12 d-flex justify-content-center">
           <About />
         </div>
+
         {/*Schedule*/}
         <div className="row col-lg-12 d-flex justify-content-center element" id="schedule">
           <div className="mg-tp">
@@ -116,6 +118,8 @@ const Component = () => (
     {/* Footer */}
     <Footer />
   </div>
+  
+  
 )
 
 export default Component
