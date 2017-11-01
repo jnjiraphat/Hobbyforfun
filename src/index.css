@@ -219,6 +219,7 @@ hr{
     background-color: #F3A3B0 !important;
     border: hidden;
     border-radius: 12px;
+    margin-left: 10px;
     /* box-shadow: 0px -1px 7px #7b7b7b; */
   }
   .texttopic {
@@ -237,7 +238,6 @@ hr{
     align-content: center;
   }
   /*topic*/
-
 
 
   /*cardhowto*/
@@ -413,8 +413,18 @@ hr{
     font-weight: bold;
   }
   .content {
-    color: rgb(121, 34, 52);
+    color: rgb(255, 255, 255);
     font-size: 23px;
+    padding: 10px;
+    margin: 0;
+ 
+  }
+  .content1 {
+    color: rgb(151, 65, 65);
+    font-size: 23px;
+    padding: 10px;
+    margin: 0;
+ 
   }
   .mr-pad {
     margin-right: 0px !important;
@@ -422,6 +432,7 @@ hr{
     padding-left: 0px !important;
     padding-right: 0px !important;
   }
+
   /*content card*/
 
   /*pop-up form*/
@@ -587,9 +598,27 @@ hr{
   padding-left: 0px !important;
 }
 @media (max-width: 700px) {
-  .product-img {width: 0px;}
+  .product-img {width: 0px; height: 0px;}
   .wrapper {width: 0px;}
-  .product-info {border: hidden; border-radius: 20px;}
+  .product-info {border: hidden; border-radius: 20px; margin-left:-190px;}
+  #pic1 {
+    width: 60px;
+    height:60px;
+ 
+  }
+  #pic2 {
+    width: 110px;
+    height: 60px;
+    margin: 1px;
+  }
+  #pic3 {
+    width: 60px;
+    height: 60px;
+    margin: 1px;
+  }
+  .panel-body{
+    margin-left: 10px;
+  }
   
 }
 /*body*/

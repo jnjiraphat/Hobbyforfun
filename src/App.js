@@ -44,6 +44,7 @@ const Component = () => (
         <div className="mr-pad row col-lg-12 d-flex justify-content-center">
           <About />
         </div>
+
         {/*Schedule*/}
         <div className="row col-lg-12 d-flex justify-content-center element" id="schedule">
           <div className="mg-tp">

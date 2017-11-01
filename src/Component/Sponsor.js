@@ -10,24 +10,24 @@ const Sponsor = () =>(
             <thead>
             <tr>
             <th className="box-sponsor">
-        <div class="panel">
-            <div class="panel-body hvr-pulse-grow">
+        <div className="panel">
+            <div className="panel-body hvr-pulse-grow">
                 <img src={KMUTT} alt="" id="pic1" />
             </div>
         </div>
             </th>
 
             <th className="box-sponsor">
-        <div class="panel">
-            <div class="panel-body hvr-pulse-grow">
+        <div className="panel">
+            <div className="panel-body hvr-pulse-grow">
                 <img src={Lactasoy} alt="" id="pic2" />
             </div>
         </div>
             </th>
 
             <th className="box-sponsor">
-        <div class="panel">
-            <div class="panel-body hvr-pulse-grow">
+        <div className="panel">
+            <div className="panel-body hvr-pulse-grow">
                 <img src={Vivo} alt="" id="pic3" />
             </div>
         </div>

@@ -22,7 +22,7 @@ const Maps = () =>(
             <th className="thbox">
         <div class="conbox conbox-add address">
             <h3 className="pad-add text-center tpcontent">Address</h3>
-                <address className="pad-cadd content">
+                <address className="pad-cadd content1">
                     <strong>King Mongkut's University of Technology Thonburi</strong><br />
                     126 Pracha Uthit Rd,<br />
                     Khwaeng Bang Mot,<br />
