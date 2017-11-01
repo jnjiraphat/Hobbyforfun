@@ -21,7 +21,7 @@ import Contact from './Component/Contact'
 import Footer from './Component/Footer'
 
 const Component = () => (
-  <div className="font-fam">
+  <div className="font-fam container-fluid contain">
     <div className="home-wrap clearfix">
       <div className="text-center col-lg-12 bghead element" id="home">
         <div className="row">

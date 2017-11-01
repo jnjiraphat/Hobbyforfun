@@ -131,9 +131,9 @@ hr{
     transition: scale(2.1);
     margin-right: .3cm;
   }
-  @media (max-width:414px) {
+  /* @media (max-width:414px) {
     .font-regis1 {font-size: 20px;}
-  }
+  } */
   .Ctext {
     padding-top: 35px;
   }
@@ -580,3 +580,16 @@ hr{
   float: right;
 }
 /*close button*/
+
+/*body*/
+.contain {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+@media (max-width: 700px) {
+  .product-img {width: 0px;}
+  .wrapper {width: 0px;}
+  .product-info {border: hidden; border-radius: 20px;}
+  
+}
+/*body*/

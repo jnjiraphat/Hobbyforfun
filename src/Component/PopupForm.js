@@ -3,16 +3,16 @@ import PopupSuccess from './PopupSuccess'
 const PopupForm=()=>(
 
 
-  <div class="modal fade" id="myModal" role="dialog">
-    <div class="modal-dialog">
+  <div className="modal fade" id="myModal" role="dialog">
+    <div className="modal-dialog">
     
-      <div class="modal-content">
-        <div class="modal-header">
-          <button type="button" class="close" data-dismiss="modal">&times;</button>
+      <div className="modal-content">
+        <div className="modal-header">
+          <button type="button" className="close" data-dismiss="modal">&times;</button>
         </div>
 
-        <div class="modal-body">
-        <div class="form-regis">
+        <div className="modal-body">
+        <div className="form-regis">
         <br/>
         <div className="container">
             <div className="row">
@@ -95,17 +95,17 @@ const PopupForm=()=>(
                     gender:
                 </div>
                 <div className="col-3 col-sm-3 col-lg-3">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" />
+                    <div className="form-check">
+                        <label className="form-check-label">
+                            <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" />
                             male
                         </label>
                     </div>
                 </div>
                 <div className="col-3 col-sm-3 col-lg-3">
-                    <div class="form-check">
-                        <label class="form-check-label">
-                            <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
+                    <div className="form-check">
+                        <label className="form-check-label">
+                            <input className="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2" />
                             female
                         </label>
                     </div>
@@ -152,14 +152,14 @@ const PopupForm=()=>(
                 </div>
                 <div className="col-12 col-sm-10 col-lg-9">
                     <form>
-                    <textarea class="form-control" id="formTextarea" rows="3"></textarea>
+                    <textarea className="form-control" id="formTextarea" rows="3"></textarea>
                     </form>
                 </div>
             </div>
         </div>
         <br/>
         <div className="button">
-                <button type="button" class="btn-custom" data-toggle="modal" data-target="#myModal2">SUBMIT</button>
+                <button type="button" className="btn-custom" data-toggle="modal" data-target="#myModal2">SUBMIT</button>
                 <PopupSuccess />
         </div>
         <br/><br/>

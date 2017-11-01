@@ -7,11 +7,10 @@ import Flower from '../img/flower1.jpg'
 import Model from '../img/gun.jpg'
 
 const CardHowto = (props) => (
-    <div className="text-center">
-
+    <div className="text-center container-fluid">
     <div className="wrapper">
-    <div className="product-img">
-    <img src={Logo3} height="420" width="327" className="img-center img-fluid" alt="Responsive image" />
+    <div className="product-img d-flex justify-content-center">
+    <img src={Logo3} height="420" className="img-center img-fluid" alt="Responsive image" />
     </div>
     <div className="product-info">
       <div className="product-text">
@@ -26,7 +25,6 @@ const CardHowto = (props) => (
       <PopupHowTo1 />
       </div>
       </div>
-      
     </div>
 
     <div className="text-center">
