@@ -18,8 +18,7 @@ const CardHowto = (props) => (
         <hcard>ถักนิตติ้ง (Knitting)</hcard>
         <hr/>
         <p>สำหรับขั้นแรกของคนที่สนใจอยากจะลองถักนิตติ้งนั้น ขอแนะนำให้ลองไปตามมุมงานฝีมือในห้างสรรพสินค้า 
-        ซึ่งโดยปกติแล้ว หากเราซื้อสินค้าในห้าง พนักงานเค้าก็จะสอนถักนิตติ้งฟรีด้วยล่ะค่ะ ^^ แต่อาจจะมี
-        ข้อเสียคือ.... </p>
+        ซึ่งโดยปกติแล้ว .... </p>
       </div>
       <div class="product-price-btn ">
       <button type="button" data-toggle="modal" data-target="#myHowto1">วิธีทำ</button>
@@ -38,11 +37,7 @@ const CardHowto = (props) => (
       <div className="product-text">
         <hcard>ดอกไม้ประดิษฐ์</hcard>
         <hr/>
-        <p>Harvest Vases are a reinterpretation<br/> 
-        of peeled fruits and vegetables as<br/> 
-        functional objects. The surfaces<br/> 
-        appear to be sliced and pulled aside,<br/> 
-        allowing room for growth. </p>
+        <p>ดอกไม้ประดิษฐ์ หมายถึง สิ่งประดิษฐ์ขึ้นจากวัสดุมีลักษณะคล้ายรูปร่างดอกไม้ ที่ถูกผลิตขึ้นมาจากแรงงานฝีมือมนุษย์ เครื่องจักร หรืออุปกรณ์การผลิต ...</p>
       </div>
       <div class="product-price-btn ">
       <button type="button" data-toggle="modal" data-target="#myHowto2">วิธีทำ</button>
@@ -60,11 +55,7 @@ const CardHowto = (props) => (
       <div className="product-text">
         <hcard>โมเดลจากปืนกาว</hcard>
         <hr/>
-        <p>Harvest Vases are a reinterpretation<br/> 
-        of peeled fruits and vegetables as<br/> 
-        functional objects. The surfaces<br/> 
-        appear to be sliced and pulled aside,<br/> 
-        allowing room for growth. </p>
+        <p>โมเดลจากปืนกาว คือ การที่นำกาวร้อนจากปืนกาวมาสร้างเป็นโมเดลต่างๆ ....</p>
       </div>
       <div class="product-price-btn ">
       <button type="button" data-toggle="modal" data-target="#myHowto3">วิธีทำ</button>

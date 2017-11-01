@@ -1,7 +1,7 @@
 import React from 'react'
 import Register from './Register'
 const Menubar = () => (
-    <div className="sticky-top widthnav">
+    <div className="sticky-top widthnav "data-spy="scroll" data-target=".navbar" data-offset="50">
         <nav className="col-lg-12 navbar navbar-expand-lg navbar-light nav-color">
             {/* <a className="navbar-brand" href="#">Navbar</a> */}
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -11,13 +11,13 @@ const Menubar = () => (
                 
                 <ul className="navbar-nav text-center">
                     <li className="nav-item active">
-                        <a className="nav-link padding font-menu" href="#">Home <span className="sr-only">(current)</span></a>
+                        <a className="nav-link padding font-menu" href="#Header">Home <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
                         <a className="nav-link padding font-menu" href="#">About <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
-                        <a className="nav-link padding font-menu" href="#">Schedule <span className="sr-only">(current)</span></a>
+                        <a className="nav-link padding font-menu" href="#Schedule">Schedule <span className="sr-only">(current)</span></a>
                     </li>
                     <li className="nav-item active">
                         <a className="nav-link padding font-menu" href="#">Activity <span className="sr-only">(current)</span></a>
@@ -37,6 +37,7 @@ const Menubar = () => (
         </nav>    
                 <Register />
     </div>
+    
     
 )
 

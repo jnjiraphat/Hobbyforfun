@@ -6,6 +6,7 @@ import Logo from './img/pic1.png'
 import Register from './Component/Register'
 import CardHowto from './Component/CardHowto'
 import Ask from './Component/Ask'
+
 // import PopupHowTo1 from './Component/PopupHowto1'
 // import PopupHowTo2 from './Component/PopupHowto2'
 // import PopupHowTo3 from './Component/PopupHowto3'
@@ -17,11 +18,15 @@ import Sponsor from './Component/Sponsor'
 import Activity from './Component/Activity'
 import Contact from './Component/Contact'
 import Footer from './Component/Footer'
+import {
+  BrowserRouter as Router,
+  Route
+} from 'react-router-dom'
 const Component = () => (
   <div className="font-fam">
   <div className="home-wrap clearfix">
-    <div className="row">
-      <div className="container-fluid">
+    
+      
         <div className="text-center col-lg-12 bghead">
           <div className="row">
             <Header />
@@ -30,6 +35,7 @@ const Component = () => (
         </div>
         
     <Menubar />
+
     <div className="test-box">
    
       {/* ABOUT */}
@@ -84,7 +90,7 @@ const Component = () => (
         <Ask />
       </div>  
 
-      </div></div>
+      </div>
       {/* QA */}
       <div className="col-lg-12">
       <div className="row col-lg-12 d-flex justify-content-center">
@@ -111,10 +117,11 @@ const Component = () => (
   </div>
   </div>
   </div>
-      {/* Footer */}
-        <Footer />      
+  {/* Footer */}
+    <Footer />      
   </div>
-  </div>
+  
+  
 )
 
 export default Component
