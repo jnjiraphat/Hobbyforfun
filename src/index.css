@@ -530,7 +530,7 @@ hr{
     height: 200px;
   }
   .waskl {
-    width: 900px !important;
+    width: 900px;
   }
   /* Ask */
 
@@ -590,6 +590,17 @@ hr{
   .product-img {width: 0px;}
   .wrapper {width: 0px;}
   .product-info {border: hidden; border-radius: 20px;}
-  
+  .map iframe {width: auto;}
+  .waskl {width: 100%}
+  .pad-add {padding-top: 0px}
+  .contain {font-size: 18px; text-align: center;}
+}
+.regres {
+  background-color: #EECC6B !important;
+  color: #ffffff !important;
+}
+.regres:hover {
+  background-color: #69C5B8 !important;
+  cursor: pointer;
 }
 /*body*/

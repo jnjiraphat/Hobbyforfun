@@ -43,6 +43,9 @@ const Menubar = () => (
             <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
+            <button className="mr-0 navbar-toggler regres" type="button" data-toggle="modal" data-target="#mymodal" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="">Register Now!</span>
+            </button>
             <div className="collapse navbar-collapse justify-content-center font-menu" id="navbarNav">
                 <ul className="navbar-nav text-center">
                     {
