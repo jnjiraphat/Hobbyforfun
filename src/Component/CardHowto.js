@@ -7,7 +7,7 @@ import Flower from '../img/flower1.jpg'
 import Model from '../img/gun.jpg'
 
 const CardHowto = (props) => (
-    <div className="text-center col-lg-12">
+    <div className="text-center">
 
     <div className="wrapper">
     <div className="product-img">
@@ -15,10 +15,11 @@ const CardHowto = (props) => (
     </div>
     <div className="product-info">
       <div className="product-text">
+        <br />
         <hcard>ถักนิตติ้ง (Knitting)</hcard>
         <hr/>
         <p>สำหรับขั้นแรกของคนที่สนใจอยากจะลองถักนิตติ้งนั้น ขอแนะนำให้ลองไปตามมุมงานฝีมือในห้างสรรพสินค้า 
-        ซึ่งโดยปกติแล้ว .... </p>
+        ซึ่งโดยปกติแล้ว หากเราซื้อสินค้าในห้าง พนักงาน... </p>
       </div>
       <div class="product-price-btn ">
       <button type="button" data-toggle="modal" data-target="#myHowto1">วิธีทำ</button>
@@ -27,14 +28,14 @@ const CardHowto = (props) => (
       </div>
       
     </div>
-
-    <div className="text-center col-lg-12">
+    
     <div className="wrapper">
     <div className="product-img">
     <img src={Flower} height="420" width="327" className="img-center img-fluid" alt="Responsive image" />
     </div>
     <div className="product-info">
       <div className="product-text">
+        <br />
         <hcard>ดอกไม้ประดิษฐ์</hcard>
         <hr/>
         <p>ดอกไม้ประดิษฐ์ หมายถึง สิ่งประดิษฐ์ขึ้นจากวัสดุมีลักษณะคล้ายรูปร่างดอกไม้ ที่ถูกผลิตขึ้นมาจากแรงงานฝีมือมนุษย์ เครื่องจักร หรืออุปกรณ์การผลิต ...</p>
@@ -45,25 +46,31 @@ const CardHowto = (props) => (
       </div>
       </div>
       </div>
-    </div>
-
+ 
+      <div class="row">
+        <div className="col-lg-12">
+      <div class="col-xs-6 col-md-4">
     <div className="wrapper">
     <div className="product-img">
     <img src={Model} height="420" width="327" className="img-center img-fluid" alt="Responsive image" />
     </div>
     <div className="product-info">
       <div className="product-text">
+        <br />
         <hcard>โมเดลจากปืนกาว</hcard>
         <hr/>
         <p>โมเดลจากปืนกาว คือ การที่นำกาวร้อนจากปืนกาวมาสร้างเป็นโมเดลต่างๆ ....</p>
+        <p>ตัวอย่างการทำโมเดลจากปืนกาว...</p>
       </div>
       <div class="product-price-btn ">
       <button type="button" data-toggle="modal" data-target="#myHowto3">วิธีทำ</button>
       <PopupHowTo3 />
       </div>
       </div>
-      
+      </div>
     </div>
+  </div>
+  </div>
   </div>
 
 )
