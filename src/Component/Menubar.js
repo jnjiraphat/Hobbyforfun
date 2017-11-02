@@ -35,17 +35,17 @@ const Manus = [
         title: 'Contact'
     },
 ]
-
+// data-spy="scroll" data-target=".navbar" data-offset="50"
 const Menubar = () => (
-    <div className="sticky-top widthnav "data-spy="scroll" data-target=".navbar" data-offset="50">
+    <div className="sticky-top widthnav " >
         <nav className="col-lg-12 navbar navbar-expand-lg navbar-light nav-color">
             {/* <Link className="navbar-brand" to="">Navbar</Link> */}
-            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="#navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="navbar-toggler-icon"></span>
             </button>
-            <button className="mr-0 navbar-toggler regres" type="button" data-toggle="modal" data-target="#mymodal" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            {/* <button className="mr-0 navbar-toggler regres" type="button" data-toggle="modal" data-target="#mymodal" aria-controls="#myModal" aria-expanded="false" aria-label="Toggle navigation">
                 <span className="">Register Now!</span>
-            </button>
+            </button> */}
             <div className="collapse navbar-collapse justify-content-center font-menu" id="navbarNav">
                 <ul className="navbar-nav text-center">
                     {

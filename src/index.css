@@ -140,6 +140,9 @@ hr{
   .font-regis1 {
     font-size: 25px;
   }
+  .hidetext {
+    font-size : auto;
+  }
   .font-regis {
     color: #ffffff;
     font-weight: bold;
@@ -377,6 +380,8 @@ hr{
   .pic1{
     margin-right: 50px;
     margin-left: 30px;
+    width: 400px;
+    height: 270px;
   }
   /*cardhowto*/
 
@@ -608,6 +613,11 @@ hr{
   .waskl {width: 100%}
   .pad-add {padding-top: 8px}
   .contain {font-size: 18px; text-align: center;}
+  .font-menu {font-size: 15px; font-weight: none;}
+  .Cposition { margin-top: 0px; border-radius: 20px; height: 65px;}
+  .Ctext {padding-top: 0px; }
+  .video-container iframe {max-width: 365px;}
+  .pic1 {margin-left: 0; margin-right: 0; width: 350px; height: 250px;}
   #pic1 {
     width: 60px;
     height:60px;

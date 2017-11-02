@@ -25,7 +25,7 @@ const PopupHowto1 = () => (
                             Hobbies สุดหวานกับการ "ถักนิตติ้ง" <br /><br />
                             มาที่วิธีการหัดถักขั้นพื้นฐานกันบ้าง สำหรับการถักนิตติ้งทุกครั้ง ต้องเริ่มต้นด้วยการขึ้นห่วงก่อนค่ะ อย่างเช่น ถ้าถักผ้าพันคอ ก็ขึ้นซักประมาณ 30 ห่วงกำลังดีค่ะ <br /> </div>
                         <br />
-                        <div class="video-container">
+                        <div class="video-container mediavideo">
                             <iframe src="https://www.youtube.com/embed/UWDOvAr6fUk" frameborder="0" gesture="media" allowfullscreen frameborder="0" width="400" height="315" />
 
                         </div>
